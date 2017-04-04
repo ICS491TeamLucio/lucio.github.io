@@ -49,3 +49,11 @@ So far as of april only 11 particpates filled out the survey and results were qu
 <img class="ui image" src="../images/pool survey 4.JPG">
 
 <img class="ui image" src="../images/pool survey 5.JPG">
+
+<img class="ui image" src="/images/landing.png">
+
+<img class="ui image" src="/images/profile-page.png">
+
+<img class="ui image" src="/images/listings-page.png">
+
+<img class="ui image" src="/images/yourListings.png">
