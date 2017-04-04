@@ -50,6 +50,8 @@ So far as of april only 11 particpates filled out the survey and results were qu
 
 <img class="ui image" src="../images/pool survey 5.JPG">
 
+### Mockup Pages:
+
 <img class="ui image" src="/images/landing.png">
 
 <img class="ui image" src="/images/profile-page.png">
