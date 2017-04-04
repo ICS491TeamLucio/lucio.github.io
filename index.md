@@ -1,5 +1,3 @@
-#UHPool
-
 ## Welcome to UHPool
 
 ### Overview: UHPool
