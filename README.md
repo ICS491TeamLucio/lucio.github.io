@@ -40,3 +40,12 @@ We used an online survey to find suggestions and our target area for people to u
 So far as of april only 11 particpates filled out the survey and results were quite surprising:
 
 
+<img class="ui image" src="../images/pool survey 1.JPG">
+
+<img class="ui image" src="../images/pool survey 2.JPG">
+
+<img class="ui image" src="../images/pool survey 3.JPG">
+
+<img class="ui image" src="../images/pool survey 4.JPG">
+
+<img class="ui image" src="../images/pool survey 5.JPG">
