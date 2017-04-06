@@ -34,6 +34,16 @@ Admins can monitor the site for inappropriate content and ban inappropriate user
 - A filter system for number of occupants their vehicle can hold, city, and school schedule.
 - Email and website system to notify any users of inquires or matches.
 
+### Coordination
+- Meet up every Monday and Wednesday @ the ICS Space @ 1700.
+- Communicate primarily by using the 314 Slack page and in emergency by texting.
+
+### Bonding exercise
+
+- Goals for the project: Create a carpool app that the UH Manoa community can easily access to find other drivers or passengers. 
+- Skills that we want to develop: Proficiency at Meteor
+- What skills we can bring into the team: Not stepping on other peoples toes while working on the project. 
+
 ### Survey
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
 
