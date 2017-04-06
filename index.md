@@ -62,10 +62,16 @@ So far as of april only 11 particpates filled out the survey and results were qu
 
 ### Mockup Pages:
 
+Landing Page:
 <img class="ui image" src="/images/landing.png">
 
+Profile Page:
 <img class="ui image" src="/images/profile-page.png">
 
+Listing page:
 <img class="ui image" src="/images/listings-page.png">
 
+Your Listing Page:
 <img class="ui image" src="/images/yourListings.png">
+
+https://github.com/uhpool/UHPool/projects/1
