@@ -4,17 +4,17 @@
 
 # Table of contents
 
-* [Overview: UHPool](### Overview: UHPool
-  * [Mockup Page Ideas](### Mockup Page Ideas)
-  * [Use Case Ideas](### Use case Ideas)
-  * [Beyond the Basics](### Beyond the basics)
-  * [Coordination](### Coordination)
-  * [Bonding Excercise](### Bonding exercise)
-  * [Survey](### Survey)
-* [Development history](#development-history)
-  * [Initial Mockup Pages](### Initial Mockup Pages)
-  * [Milestone 1](### Milestone 1)
-  * [Milestone 2](### Milestone 2)
+* [Overview: UHPool](###Overview: UHPool)
+  * [Mockup Page Ideas](###Mockup Page Ideas)
+  * [Use Case Ideas](###Use case Ideas)
+  * [Beyond the Basics](###Beyond the basics)
+  * [Coordination](###Coordination)
+  * [Bonding Excercise](###Bonding exercise)
+  * [Survey](###Survey)
+* [Development history](##Development-History)
+  * [Initial Mockup Pages](###Initial Mockup Pages)
+  * [Milestone 1](###Milestone 1)
+  * [Milestone 2](###Milestone 2)
 
 ### Overview: UHPool
 
@@ -75,6 +75,8 @@ So far as of april only 11 particpates filled out the survey and results were qu
 <img class="ui image" src="../images/pool survey 4.JPG">
 
 <img class="ui image" src="../images/pool survey 5.JPG">
+
+## Development-History
 
 ### Initial Mockup Pages
 
