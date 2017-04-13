@@ -79,7 +79,7 @@ Your Listing Page:
 https://github.com/uhpool/UHPool/projects/1
 
 Landing Page:
----waiting---
+<img class="ui image" src="/images/landings.png">
 
 Profile Page:
 <img class="ui image" src="/images/profile.png">
