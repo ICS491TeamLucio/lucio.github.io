@@ -95,9 +95,8 @@ Listing page:
 Your Listing Page:
 <img class="ui image" src="/images/mylistings.png">
 
-http://uhpool.meteorapp.com/
+<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>UHPool Meteor App</a>
 
-https://github.com/uhpool/UHPool/projects/1
+<a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
-https://github.com/uhpool/UHPool/projects/2
-
+<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
