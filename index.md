@@ -4,17 +4,17 @@
 
 # Table of contents
 
-* [Overview: UHPool](###Overview: UHPool)
-  * [Mockup Page Ideas](###Mockup Page Ideas)
-  * [Use Case Ideas](###Use case Ideas)
-  * [Beyond the Basics](###Beyond the basics)
-  * [Coordination](###Coordination)
-  * [Bonding Excercise](###Bonding exercise)
-  * [Survey](###Survey)
-* [Development history](##Development-History)
-  * [Initial Mockup Pages](###Initial Mockup Pages)
-  * [Milestone 1](###Milestone 1)
-  * [Milestone 2](###Milestone 2)
+* [Overview: UHPool](###overview:-uhpool)
+  * [Mockup Page Ideas](###mockup-page-ideas)
+  * [Use Case Ideas](###use-case-Ideas)
+  * [Beyond the Basics](###beyond-the-basics)
+  * [Coordination](###coordination)
+  * [Bonding Excercise](###bonding-exercise)
+  * [Survey](###survey)
+* [Development history](##development-history)
+  * [Initial Mockup Pages](###initial-mockup-pages)
+  * [Milestone 1](###milestone-1)
+  * [Milestone 2](###milestone-2)
 
 ### Overview: UHPool
 
