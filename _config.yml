@@ -1,1 +1,9 @@
+url: "https://uhpool.github.io/"
+baseurl: ""
+title: UHPool
+description: Quick and easy access to find carpoolers in the UH communit
+google_analytics: 
+show_downloads: true
 theme: jekyll-theme-leap-day
+gems:
+  - jekyll-mentions
