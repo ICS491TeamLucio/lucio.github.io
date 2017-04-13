@@ -1,6 +1,6 @@
-<button name="button" onclick="http://www.uhpool.meteorapp.com">Click me</button>
-
 ## Welcome to UHPool
+
+hpool.meteorapp.com
 
 ### Overview: UHPool
 
@@ -77,3 +77,19 @@ Your Listing Page:
 <img class="ui image" src="/images/yourListings.png">
 
 https://github.com/uhpool/UHPool/projects/1
+
+Landing Page:
+---waiting---
+
+Profile Page:
+<img class="ui image" src="/images/profile.png">
+
+
+Listing page:
+<img class="ui image" src="/images/edit.png">
+
+Listing page:
+<img class="ui image" src="/images/listings.png">
+
+Your Listing Page:
+<img class="ui image" src="/images/mylistings.png">
