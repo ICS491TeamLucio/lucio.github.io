@@ -1,4 +1,4 @@
-[button url="http://www.uhpool.meteorapp.com"]
+<button name="button" onclick="http://www.uhpool.meteorapp.com">Click me</button>
 
 ## Welcome to UHPool
 
