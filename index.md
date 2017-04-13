@@ -1,6 +1,20 @@
 ## Welcome to UHPool
 
-hpool.meteorapp.com
+<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>UHPool Meteor App</a>
+
+# Table of contents
+
+* [Overview: UHPool](### Overview: UHPool
+  * [Mockup Page Ideas](### Mockup Page Ideas)
+  * [Use Case Ideas](### Use case Ideas)
+  * [Beyond the Basics](### Beyond the basics)
+  * [Coordination](### Coordination)
+  * [Bonding Excercise](### Bonding exercise)
+  * [Survey](### Survey)
+* [Development history](#development-history)
+  * [Initial Mockup Pages](### Initial Mockup Pages)
+  * [Milestone 1](### Milestone 1)
+  * [Milestone 2](### Milestone 2)
 
 ### Overview: UHPool
 
@@ -62,7 +76,7 @@ So far as of april only 11 particpates filled out the survey and results were qu
 
 <img class="ui image" src="../images/pool survey 5.JPG">
 
-### Mockup Pages:
+### Initial Mockup Pages
 
 Landing Page:
 <img class="ui image" src="/images/landing.png">
@@ -78,7 +92,7 @@ Your Listing Page:
 
 https://github.com/uhpool/UHPool/projects/1
 
-Milestone 1 updated images:
+### Milestone 1
 
 Landing Page:
 <img class="ui image" src="/images/landings.png">
@@ -95,8 +109,19 @@ Listing page:
 Your Listing Page:
 <img class="ui image" src="/images/mylistings.png">
 
-<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>UHPool Meteor App</a>
-
+Milestone 1:
 <a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
+<img class="ui image" src="/images/Milestone1.png">
+
+Milestone2:
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+
+<img class="ui image" src="/images/Milestone2.png">
+
+Network:
+<img class="ui image" src="/images/Network.png">
+
+### Milestone 2
+
+
