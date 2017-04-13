@@ -95,4 +95,9 @@ Listing page:
 Your Listing Page:
 <img class="ui image" src="/images/mylistings.png">
 
-uhpool.meteorapp.com
+http://uhpool.meteorapp.com/
+
+https://github.com/uhpool/UHPool/projects/1
+
+https://github.com/uhpool/UHPool/projects/2
+
