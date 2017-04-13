@@ -78,14 +78,15 @@ Your Listing Page:
 
 https://github.com/uhpool/UHPool/projects/1
 
+Milestone 1 updated images:
+
 Landing Page:
 <img class="ui image" src="/images/landings.png">
 
 Profile Page:
 <img class="ui image" src="/images/profile.png">
 
-
-Listing page:
+Edit Profile:
 <img class="ui image" src="/images/edit.png">
 
 Listing page:
@@ -93,3 +94,5 @@ Listing page:
 
 Your Listing Page:
 <img class="ui image" src="/images/mylistings.png">
+
+uhpool.meteorapp.com
