@@ -4,9 +4,9 @@
 
 # Table of contents
 
-* [Overview: UHPool](#overview:-uhpool)
+* [Overview: UHPool](#overview-uhpool)
   * [Mockup Page Ideas](#mockup-page-ideas)
-  * [Use Case Ideas](#use-case-Ideas)
+  * [Use Case Ideas](#use-case-ideas)
   * [Beyond the Basics](#beyond-the-basics)
   * [Coordination](#coordination)
   * [Bonding Excercise](#bonding-exercise)
@@ -16,7 +16,7 @@
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
 
-### Overview: UHPool
+### Overview UHPool
 
 The problem:
 
@@ -96,6 +96,8 @@ https://github.com/uhpool/UHPool/projects/1
 
 ### Milestone 1
 
+For the first Milestone 1 five mockup pages were created for the project.
+
 Landing Page:
 <img class="ui image" src="/images/landings.png">
 
@@ -126,4 +128,13 @@ Network:
 
 ### Milestone 2
 
+--Add shit here--
 
+Milestone 2:
+--add milestone 2 image here--
+
+Milestone 3:
+--add milestone 3 image here--
+
+Network: 
+--add network image here--
