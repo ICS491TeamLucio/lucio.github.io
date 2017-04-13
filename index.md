@@ -1,3 +1,5 @@
+[button url="http://www.uhpool.meteorapp.com"]
+
 ## Welcome to UHPool
 
 ### Overview: UHPool
