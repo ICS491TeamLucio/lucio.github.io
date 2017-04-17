@@ -128,8 +128,6 @@ Network:
 
 ### Milestone 2
 
---Add shit here--
-
 Milestone 2:
 --add milestone 2 image here--
 
