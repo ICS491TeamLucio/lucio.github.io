@@ -5,11 +5,22 @@
 # Table of contents
 
 * [Overview: UHPool](#overview-uhpool)
-  * [Mockup Page Ideas](#mockup-page-ideas)
-  * [Use Case Ideas](#use-case-ideas)
-  * [Beyond the Basics](#beyond-the-basics)
-  * [Coordination](#coordination)
-  * [Bonding Excercise](#bonding-exercise)
+  * [Walkthrough for UHPool](#walkthrough-uhpool)
+* [Installation](#installation)
+* [Application design](#application-design)
+  * [Directory structure](#directory-structure)
+  * [Import conventions](#import-conventions)
+  * [Naming conventions](#naming-conventions)
+  * [Data model](#data-model)
+  * [CSS](#css)
+  * [Routing](#routing)
+  * [Authentication](#authentication)
+  * [Authorization](#authorization)
+  * [Configuration](#configuration)
+  * [Quality Assurance](#quality-assurance)
+    * [ESLint](#eslint)
+    * [Data model unit tests](#data-model-unit-tests)
+    * [JSDoc](#JSDoc)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
@@ -18,53 +29,69 @@
 
 ### Overview UHPool
 
-The problem:
+### Walkthrough UHPool
 
-The parking situation for UH Manoa students and faculty is in dire need of being restructured. Many students and faculty members (especially students) have a hard time getting hold of a parking pass on campus due to the limited parking.
+UHPool is a meteor app that allows people to find other carpoolers in the UH community. 
+When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app.
 
-The solution:
+Landing Page:
+<img class="ui image" src="/images/landings.png">
 
-Carpooling is a great solution to the limited parking problem; however, many students usually commute to school by themselves. Per the UH Manoa Commuter Service there must be a minimum of two occupants to be considered carpooling. By creating a system that allows UH students and faculty to find others that have similar schedules and similar living locations, the carpool system can be more efficient. To find someone else that’s looking for carpooling, that person would have to go through the Department of Transportation Highways and submit a car/school pool matching form: http://hidot.hawaii.gov/highways/carschool-pool-matching-form-submit/ and it only contains two forms to fill in the start and leave hours that’s assumingly only for every week. We all know that students and faculty staff have busy schedules in college and its harder to find a match with only two fields to fill in for the schedule. So, users can have additional carpoolers in their schedule, for example: person ‘A’ might have the same schedule as person ‘B’ for Mondays to Wednesdays so both party members would have to find another user to fill in their schedule. Also, students and faculty would prefer to find a match with someone else’s schedule and city before buying a carpool permit.
+After loging in, new users will have to put in their personal information and if they're looking for a driver or passenger to carpool with. 
 
-UHPool requires a UH ID, and requires that the users, who are planning on driving, post the city in which they live in. That way other users can search for anyone that lives near their area. The initial website shows the name, city and vehicular occupant capacity of each user. When clicking on someone’s name on the listing, the webpage will direct them to the user’s name, email address, car make and model, and school schedule on a posting. From there, the users can click a button that will notify the user that posted the listing that there is a possible match. After confirmation, has been sent between the user’s then additional information can be sent such as phone numbers and addresses (depends on user’s discretion). Or set up a meeting on campus to get to know the other user better before making any other decision.
+Profile Page:
+<img class="ui image" src="/images/profile.png">
 
-Admins can monitor the site for inappropriate content and ban inappropriate users who violate the Terms of Use. Upon first login, all users must agree to Terms of Use before they obtain access to the system.
+The edit profile page allows any current users to change any information.
 
-### Mockup Page Ideas
+Edit Profile:
+<img class="ui image" src="/images/edit.png">
 
-- Listings
-- Login Page
-- User Profile Page
-- Admin Homepage
-- Browser Listings
+The listing page will show other users on the app that are also looking for other carpoolers. In this page you can search for a driver or pasenger at certain time periods that fit your schedule. 
 
-### Use case Ideas
+Listing page:
+<img class="ui image" src="/images/mylistings.png">
 
-- New user goes to login page, user profile page, and sets up profile and their listing
-- Admin goes to login page, admin homepage, and browser listings, edits site
-- User is notified through email and website of any inquiries or matches.
+Your listing page that to set up the time and dates when you are available to carpool with someone. 
 
-### Beyond the basics
+My Listing Page:
+<img class="ui image" src="/images/mylistings.png">
 
-- Support reviews of other users, for any previous negative experience with a certain user (Star or thumbs up or down rating).
-- A filter system for number of occupants their vehicle can hold, city, and school schedule.
-- Email and website system to notify any users of inquires or matches.
+### Installation
 
-### Coordination
-- Meet up every Monday and Wednesday @ the ICS Space @ 1700.
-- Communicate primarily by using the 314 Slack page and in emergency by texting.
+### Application design
 
-### Bonding exercise
+### Directory structure
 
-- Goals for the project: Create a carpool app that the UH Manoa community can easily access to find other drivers or passengers. 
-- Skills that we want to develop: Proficiency at Meteor
-- What skills we can bring into the team: Not stepping on other peoples toes while working on the project. 
+### Import conventions
+
+### Naming conventions
+
+### Data model
+
+### CSS
+
+### Routing
+
+### Authentication
+
+### Authorization
+
+### Configuration
+
+### Quality Assurance
+
+### ESLint
+
+### Data model unit tests
+
+### JSDoc
 
 ### Survey
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
 
 So far as of april only 11 particpates filled out the survey and results were quite surprising:
-
+According to the survey, a lot of people didn't know UH Manoa had a carpool system, people would consider giving carpooling a chance and people couldn't think of a solution to find someone to carpool with.
 
 <img class="ui image" src="../images/pool survey 1.JPG">
 
@@ -80,38 +107,24 @@ So far as of april only 11 particpates filled out the survey and results were qu
 
 ### Initial Mockup Pages
 
-Landing Page:
-<img class="ui image" src="/images/landing.png">
+Our initial mockup pages before starting our milestone 1, using the digits template. 
 
-Profile Page:
-<img class="ui image" src="/images/profile-page.png">
-
-Listing page:
-<img class="ui image" src="/images/listings-page.png">
-
-Your Listing Page:
-<img class="ui image" src="/images/yourListings.png">
+<img width="200px" src="images/landing.png"/>
+<img width="200px" src="images/profile-page.png"/>
+<img width="200px" src="images/listings-page.png"/>
+<img width="200px" src="images/yourListings.png"/>
 
 https://github.com/uhpool/UHPool/projects/1
 
 ### Milestone 1
 
-For the first Milestone 1 five mockup pages were created for the project.
+For Milestone 1 five mockup pages were created for the project. The goal of milestone 1 was to create mockups of our app using the meteor app. The site allowed people to log in using their UH account however a lot of the functions in the website weren't fully operational. Milestone 1 started on April 5th 2017 and ended on April 13th 2017. 
 
-Landing Page:
-<img class="ui image" src="/images/landings.png">
-
-Profile Page:
-<img class="ui image" src="/images/profile.png">
-
-Edit Profile:
-<img class="ui image" src="/images/edit.png">
-
-Listing page:
-<img class="ui image" src="/images/listings.png">
-
-Your Listing Page:
-<img class="ui image" src="/images/mylistings.png">
+<img width="200px" src="images/landings.png"/>
+<img width="200px" src="images/profile.png"/>
+<img width="200px" src="images/edit.png"/>
+<img width="200px" src="images/listings.png"/>
+<img width="200px" src="images/mylistings.png"/>
 
 Milestone 1:
 <a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
@@ -119,6 +132,10 @@ Milestone 1:
 <img class="ui image" src="/images/Milestone1.png">
 
 Milestone2:
+
+For Milestone 2 addtional fixes were added to the project, ...
+Milestone 2 started on April 13th 2017 and ended on ...
+
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
 <img class="ui image" src="/images/Milestone2.png">
