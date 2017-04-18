@@ -50,7 +50,7 @@ Edit Profile:
 The listing page will show other users on the app that are also looking for other carpoolers. In this page you can search for a driver or pasenger at certain time periods that fit your schedule. 
 
 Listing page:
-<img class="ui image" src="/images/mylistings.png">
+<img class="ui image" src="/images/listings.png">
 
 Your listing page that to set up the time and dates when you are available to carpool with someone. 
 
