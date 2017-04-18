@@ -26,6 +26,7 @@
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
+  * [Milestone 3](#milestone-3)
 
 ### Overview UHPool
 
@@ -150,6 +151,14 @@ Milestone 2:
 
 Milestone 3:
 --add milestone 3 image here--
+
+Network: 
+--add network image here--
+
+### Milestone 3
+
+Milestone 3:
+--add milestone 2 image here--
 
 Network: 
 --add network image here--
