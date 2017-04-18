@@ -134,9 +134,6 @@ Milestone 1:
 
 Milestone2:
 
-For Milestone 2 addtional fixes were added to the project, ...
-Milestone 2 started on April 13th 2017 and ended on ...
-
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
 <img class="ui image" src="/images/Milestone2.png">
@@ -145,6 +142,8 @@ Network:
 <img class="ui image" src="/images/Network.png">
 
 ### Milestone 2
+For Milestone 2 addtional fixes were added to the project, ...
+Milestone 2 started on April 13th 2017 and ended on ...
 
 Milestone 2:
 --add milestone 2 image here--
