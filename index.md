@@ -392,16 +392,20 @@ Network:
 
 ### Milestone 2
 For Milestone 2 addtional fixes were added to the project, ...
-Milestone 2 started on April 13th 2017 and ended on ...
+Milestone 2 started on April 13th 2017 and ended on April 26, 2017
 
 Milestone 2:
---add milestone 2 image here--
+<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+
+<img class="ui image" src="/images/Milestone2.png">
 
 Milestone 3:
---add milestone 3 image here--
+<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+
+<img class="ui image" src="/images/Milestone2.png">
 
 Network: 
---add network image here--
+<img class="ui image" src="/images/Network.png">
 
 ### Milestone 3
 
