@@ -7,6 +7,8 @@
 * [Overview: UHPool](#overview-uhpool)
   * [Walkthrough for UHPool](#walkthrough-uhpool)
 * [Installation](#installation)
+* [Branches](#branches)
+* [Meteor Website](#meteor-website)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
   * [Import conventions](#import-conventions)
@@ -19,8 +21,6 @@
   * [Configuration](#configuration)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
-    * [Data model unit tests](#data-model-unit-tests)
-    * [JSDoc](#JSDoc)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
@@ -72,11 +72,92 @@ $ meteor npm install
 
 Fourth, run the system with:
 
+before using this code make sure that your package.json file contains this code:
+
+```
+{
+  "name": "uhpool",
+  "private": true,
+  "scripts": {
+    "start": "meteor --no-release-check --settings ../config/settings.json",
+    "develop": "meteor --no-release-check --settings ../config/settings.development.json",
+    "lint": "eslint ./imports",
+    "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json -r .",
+    "test-watch": "meteor test --driver-package practicalmeteor:mocha --port 3100",
+    "deploy": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy uhpool.meteorapp.com --owner ics314s17 --settings ../config/settings.json"
+  }
+```
+
+This gives a shortcut for the command line into:
+
 ```
 $ meteor npm run start
 ```
 
+which is more perferable to type than:
+
+```
+meteor --no-release-check --settings ../config/settings.json",
+```
+
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
+
+### Branches
+
+When creating a new branch for the project use issue-XX naming conventions. This prevents people from working on the master branch to prevent any future issues. Each issue is to work on different issues or problems that require attention such as "working on the landing page".
+
+```
+$ git checkout -b issue-XX
+```
+
+Try to avoid using the master branch as it is the primary focus that the app will run on or in other words the code that you will turn in. 
+
+To change branches:
+
+```
+$ git checkout [issue-XX or master]
+```
+
+Make sure to do:
+
+```
+$ git pull
+```
+
+in the master branch before adding or pushing any code to github. This prevents stepping on peoples toes or overriding other peoples codes that they worked on earlier which creates tension and problems. 
+
+Lastly when pushing or pulling from github, merging with the master is required before pushing to github and merging with an issue is required if someone made a change to the master branch. 
+
+```
+$ git merge [master -Say if your current branch is issue-XX]
+```
+
+### Meteor Website
+
+To use and make a meterapp website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly in order to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free. 
+
+For more instructions please at [E54: Test deploy to Galaxy](http://courses.ics.hawaii.edu/ics314s17/morea/deployment/experience-test-deployment.html)
+
+To avoid typing in 3-4 additional lines of codes put this code snippet into the ...app/package.json file:
+
+```
+{
+  "name": "uhpool",
+  "private": true,
+  "scripts": {
+    "start": "meteor --no-release-check --settings ../config/settings.json",
+    "develop": "meteor --no-release-check --settings ../config/settings.development.json",
+    "lint": "eslint ./imports",
+    "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json -r .",
+    "test-watch": "meteor test --driver-package practicalmeteor:mocha --port 3100",
+    "deploy": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy uhpool.meteorapp.com --owner ics314s17 --settings ../config/settings.json"
+  }
+```
+This allows you to deploy your code onto your galaxy app by typing:
+
+```
+$ meteor npm run deploy
+```
 
 ### Application Design
 
@@ -186,16 +267,6 @@ The [BaseUtilities](https://github.com/uhpool/UHPool/blob/master/app/imports/api
 
 Both ProfileCollection and AllListingCollection have Mocha unit tests in [ProfileCollection.test.js](https://github.com/uhpool/UHPool/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [AllListingCollection.test.js](https://github.com/uhpool/UHPool/blob/master/app/imports/api/all_listings/AllListingsCollection.test.js).
 
-You can run these tests using the following command:
-
-```
-meteor npm run test-watch
-```
-===============FIX THIS=================================================================
-You can see the output by retrieving http://localhost:3100 in your browser. Here is an example run:
-
-![](images/m2-mocha-tests.png)
-===============FIX THIS=================================================================
 ### CSS
 
 The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
@@ -264,18 +335,6 @@ meteor npm run lint
 ESLint should run without generating any errors.  
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
-
-### JSDoc
-
-Bowfolios supports documentation generation with [JSDoc](http://usejsdoc.org/). The package.json file defines a script called jsdoc that runs JSDoc over the source files and outputs html to the ../../bowfolio.github.io/jsdoc directory.  When committed, the index.html file providing an overview of all the documentation generate at that point in time is available at [http://bowfolios.github.io/jsdocs](https://bowfolios.github.io/jsdocs/). 
-
-### Branches
-
-If another team decides to use UHPool...
-
-Master branch...
-
-Branch format index-00...
 
 ### Survey
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
