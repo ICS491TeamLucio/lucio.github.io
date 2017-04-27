@@ -7,8 +7,8 @@
 * [Overview: UHPool](#overview-uhpool)
   * [Walkthrough for UHPool](#walkthrough-uhpool)
 * [Installation](#installation)
-* [Branches](#branches)
-* [Meteor Website](#meteor-website)
+  * [Branches](#branches)
+  * [Meteor Website](#meteor-website)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
   * [Import conventions](#import-conventions)
@@ -110,7 +110,7 @@ When creating a new branch for the project use issue-XX naming conventions. This
 $ git checkout -b issue-XX
 ```
 
-Try to avoid using the master branch as it is the primary focus that the app will run on or in other words the code that you will turn in. 
+Try to avoid using the master branch as it is the primary focus that the app will run on.
 
 To change branches:
 
@@ -337,6 +337,7 @@ ESLint should run without generating any errors.
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 ### Survey
+
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
 
 So far as of april only 11 particpates filled out the survey and results were quite surprising:
