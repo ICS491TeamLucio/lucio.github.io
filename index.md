@@ -33,27 +33,27 @@
 ### Walkthrough UHPool
 
 UHPool is a meteor app that allows people to find other carpoolers in the UH community. 
-When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app.
+When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app. It explains "why you should carpool?" and "why you should use this app?". The login button will direct a link to a UH login page, login using your UH Manoa account. 
 
 Landing Page:
 <img class="ui image" src="/images/landings2.png">
 
-After loging in, new users will have to put in their personal information and if they're looking for a driver or passenger to carpool with. 
-
-Profile Page:
-<img class="ui image" src="/images/profile2.png">
-
-The edit profile page allows any current users to change any information.
+After loging in, new users will have to put in their personal information so enter your full name, a picture of yourself, picture of your car, type of vehicle, capacity limit of your car, location (area) where you want to be picked up, and a short biography about yourself. 
 
 Edit Profile:
 <img class="ui image" src="/images/edit2.png">
 
-The listing page will show other users on the app that are also looking for other carpoolers. In this page you can search for a driver or pasenger at certain time periods that fit your schedule. 
+The profile page reflects the information you input from the edit profile page, it also shows an example what people will see when they click on your profile and what you'll see when clicking on other peoples profile page. 
+
+Profile Page:
+<img class="ui image" src="/images/profile2.png">
+
+The listing page will show other users on the app that are also looking for other carpoolers. In this page you can search for a driver or pasenger at certain time periods that fit your schedule. By matching the day, time and area you can then click accept to send the user a notice that you're interested in carpooling with them. 
 
 Listing page:
 <img class="ui image" src="/images/listings2.png">
 
-Your listing page that to set up the time and dates when you are available to carpool with someone. 
+Your own listing page that to set up the time and dates when you are available to carpool with someone. Enter in your pickup location, drop off location, day, pickup time and dropoff time. So if you want to carpool for 5 days then you should have 5 lines. It will then be posted on the listing page where other people can accept it.
 
 My Listing Page:
 <img class="ui image" src="/images/mylistings2.png">
@@ -158,6 +158,8 @@ This allows you to deploy your code onto your galaxy app by typing:
 ```
 $ meteor npm run deploy
 ```
+
+You should then be able to access uhpool online on the website: uhpool.meteorapp.com
 
 ### Application Design
 
@@ -412,6 +414,8 @@ Milestone 3:
 
 Network: 
 <img class="ui image" src="/images/network2.png">
+
+Current website or app is accessible on: uhpool.meteorapp.com
 
 ### Milestone 3
 
