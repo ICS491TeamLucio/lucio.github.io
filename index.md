@@ -405,7 +405,7 @@ Milestone 3:
 <img class="ui image" src="/images/milestone3b.png">
 
 Network: 
-<img class="ui image" src="/images/network2.png>
+<img class="ui image" src="/images/network2.png">
 
 ### Milestone 3
 
