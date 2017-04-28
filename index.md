@@ -36,27 +36,27 @@ UHPool is a meteor app that allows people to find other carpoolers in the UH com
 When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app.
 
 Landing Page:
-<img class="ui image" src="/images/landings.png">
+<img class="ui image" src="/images/landings2.png">
 
 After loging in, new users will have to put in their personal information and if they're looking for a driver or passenger to carpool with. 
 
 Profile Page:
-<img class="ui image" src="/images/profile.png">
+<img class="ui image" src="/images/profile2.png">
 
 The edit profile page allows any current users to change any information.
 
 Edit Profile:
-<img class="ui image" src="/images/edit.png">
+<img class="ui image" src="/images/edit2.png">
 
 The listing page will show other users on the app that are also looking for other carpoolers. In this page you can search for a driver or pasenger at certain time periods that fit your schedule. 
 
 Listing page:
-<img class="ui image" src="/images/listings.png">
+<img class="ui image" src="/images/listings2.png">
 
 Your listing page that to set up the time and dates when you are available to carpool with someone. 
 
 My Listing Page:
-<img class="ui image" src="/images/mylistings.png">
+<img class="ui image" src="/images/mylistings2.png">
 
 ### Installation
 
@@ -393,6 +393,12 @@ Network:
 ### Milestone 2
 For Milestone 2 addtional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
 Milestone 2 started on April 13th 2017 and ended on April 27, 2017
+
+<img width="200px" src="images/landings2.png"/>
+<img width="200px" src="images/profile2.png"/>
+<img width="200px" src="images/edit2.png"/>
+<img width="200px" src="images/listings2.png"/>
+<img width="200px" src="images/mylistings2.png"/>
 
 Milestone 2:
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
