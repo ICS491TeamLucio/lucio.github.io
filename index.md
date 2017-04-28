@@ -391,21 +391,21 @@ Network:
 <img class="ui image" src="/images/Network.png">
 
 ### Milestone 2
-For Milestone 2 addtional fixes were added to the project, ...
-Milestone 2 started on April 13th 2017 and ended on April 26, 2017
+For Milestone 2 addtional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
+Milestone 2 started on April 13th 2017 and ended on April 27, 2017
 
 Milestone 2:
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
-<img class="ui image" src="/images/Milestone2.png">
+<img class="ui image" src="/images/milestone2b.png">
 
 Milestone 3:
-<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+<a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
 
-<img class="ui image" src="/images/Milestone2.png">
+<img class="ui image" src="/images/milestone3b.png">
 
 Network: 
-<img class="ui image" src="/images/Network.png">
+<img class="ui image" src="/images/network2.png>
 
 ### Milestone 3
 
