@@ -32,6 +32,8 @@
 
 ### Walkthrough UHPool
 
+Access the website through: http://uhpool.meteorapp.com/
+
 UHPool is a meteor app that allows people to find other carpoolers in the UH community. 
 When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app. It explains "why you should carpool?" and "why you should use this app?". The login button will direct a link to a UH login page, login using your UH Manoa account. 
 
