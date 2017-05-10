@@ -19,9 +19,9 @@
   * [Authentication](#authentication)
   * [Authorization](#authorization)
   * [Configuration](#configuration)
+  * [Redeploy Meteor](#redeploy-meteor)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
-    * [Redeploy Meteor](#redeploy-meteor)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
@@ -332,6 +332,18 @@ The [.gitignore](https://github.com/uhpool/UHPool/blob/master/.gitignore) file p
 
 UHPool checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/uhpool/UHPool/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/uhpool/UHPool/blob/master/app/private/database/initial-collection-data.json). 10 points if you can guess where these names come from for the profile collection.
 
+### Redeploy Meteor
+
+If certain changes do not show up in the listing or mylisting page, such as no listing showing up on the Listings page or the save/update button not working on the mylisting page. Then you need to reset your local db by typing in:
+
+```
+meteor npm reset
+meteor npm install
+meteor npm run start
+```
+
+This should reset your local mongo which should show any recent changes done to the app.
+
 ### Quality Assurance
 
 ### ESLint
@@ -345,17 +357,6 @@ meteor npm run lint
 ESLint should run without generating any errors.  
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
-
-### Redeploy Meteor
-If certain changes do not show up in the listing or mylisting page, such as no listing showing up on the Listings page or the save/update button not working on the mylisting page. Then you need to reset your local db by typing in:
-
-```
-meteor npm reset
-meteor npm install
-meteor npm run start
-```
-
-This should reset your local mongo which should show any recent changes done to the app.
 
 ### Survey
 
