@@ -510,9 +510,8 @@ We were so focused on just getting our app to work that we simply did not have t
 Things that we improved on in this project:
 - Teamwork, we all gained each other’s trust and worked together as one group.
 - Knowledge and improvement on using Meteor and IntelliJ.
-- 
 
 Things we could improve on:
 - Getting together, we slowly got together less after we finished milestone 2.
 - Having a stronger plan, we should've perfected the important stuff first like the landing or listing page before trying to add a search function or automatic email updates.
-- 
+
