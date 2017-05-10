@@ -42,6 +42,9 @@ When first accessing UHPool, everyone will be greeted by the landing page showin
 Landing Page:
 <img class="ui image" src="/images/landings2.png">
 
+Login Page:
+<img class="ui image" src="/images/login3.png">
+
 After loging in, new users will have to put in their personal information so enter your full name, a picture of yourself, picture of your car, type of vehicle, capacity limit of your car, location (area) where you want to be picked up, and a short biography about yourself. 
 
 Edit Profile:
@@ -492,6 +495,24 @@ In between one to five, one being "I would rather use Uber" and 5 being "I would
 
 <img class="ui image" src="../images/initial study 8.png">
 
+We're happy that the majority of the participants enjoyed using the app. However we did note that next time we should improve the aesthetics such as the background image and try to include a GPS or map to help find routes and locations. 
+
 ### Conclusion
 
 We were able to successfully launch our app. However there were some stuff that we weren't unable to implement into our app. 
+Such as the beyond the basics:
+- Support reviews of other users, for any previous negative experience with a certain user (Star or thumbs up or down rating).
+- A filter system for number of occupants their vehicle can hold, city, and school schedule.
+- Email and website system to notify any users of inquires or matches.
+
+We were so focused on just getting our app to work that we simply did not have the time to implment these special features into the app. In the end the most important thing to have was an app or website that worked and that's what we accomplished. 
+
+Things that we improved on in this project:
+- Teamwork, we all gained each others trust and worked together as one group.
+- Knowledge and improvment on using Meteor and IntelliJ.
+- 
+
+Things we could improve on:
+- Getting together, we slowly got together less after we finished milestone 2.
+- Having a stronger plan, we should've perfected the important stuff first like the landing or listing page before trying to add a search function or automatic email updates.
+- 
