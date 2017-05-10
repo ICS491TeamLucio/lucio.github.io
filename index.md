@@ -515,4 +515,4 @@ Things that we improved on in this project:
 Things we could improve on:
 - Getting together, we slowly got together less after we finished milestone 2.
 - Having a stronger plan, we should've perfected the important stuff first like the landing or listing page before trying to add a search function or automatic email updates.
--
+- 
