@@ -422,8 +422,8 @@ Network:
 Current website or app is accessible on: uhpool.meteorapp.com
 
 ### Milestone 3
-For Milestone 2 addtional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
-Milestone 2 started on April 13th 2017 and ended on April 27, 2017
+For Milestone 3 addtional fixes were added to the project, the login page was created, updated schema for user and listing page, connected various pages to the database, created the initial user study, fixes were also made for the listing and mylisting page.
+Milestone 3 started on April 27th 2017 and ended on May 09th, 2017
 
 <img width="200px" src="images/landing3.png"/>
 <img width="200px" src="images/login3.png"/>
@@ -442,26 +442,56 @@ Network:
 
 ### Initial User Study
 
-We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
+We used an online user study survey to find what people thought of our app  @ https://goo.gl/forms/dKtHRmHfRl8KPUMC3
 
-So far as of april only 11 particpates filled out the survey and results were quite surprising:
-According to the survey, a lot of people didn't know UH Manoa had a carpool system, people would consider giving carpooling a chance and people couldn't think of a solution to find someone to carpool with.
+So far as of May only 5 particpates tested our app and filled out the survey. After reviewing the results we realized that there was one joker who gave us odd responses, however we did take into consideration that at least one or two people would fool around. 
+
+As shown in the image below, participates could only fill out the form if they tested the app and used their UH google account to log in and take the survey. Each particpate could only fill out the survey once. 
 
 <img class="ui image" src="../images/initialstudy1.png">
 
+Would you use this app if you carpooled? 
+
+Out of 5 of the participates only one said no. So this states that at least one person has either a better carpool app to use or wouldn't use an app to find someone to carpool with.
+
 <img class="ui image" src="../images/initialstudy2.png">
+
+We're happy to announce that all five particpates would recommend the app to others.
 
 <img class="ui image" src="../images/initial study 3.png">
 
+What did you find good about the app? 
+
+Apparently our general functions and UI interface was easy to use. Somoene also just liked the idea of using a carpool app.
+
 <img class="ui image" src="../images/initial study 4.png">
+
+What did you find bad about the app? 
+
+One participant stated that "I don't want to meet random people," it's hard to state if they were serious or not however our inital concept of creating this app is to find "someone" to carpool with. If we could easily find a friend or family member to carpool with we wouldn't have created this app in the first place. 
+
+Another participant stated that the landing page background isn't too aesthetically appealing. After thinking about it, I could understand where this person was talking about. Having a background of traffic isn't a pretty sight, something like the picture of the campus of UH. 
+
+"Nothing works yet", and "Needs some minor improvements on other functions", unfortunetly this is a bit too vague on what parts the participant is talking about. 
 
 <img class="ui image" src="../images/initial study 5.png">
 
+What woud you include in the app?
+
+Participates stated they would perfer to include more images or a GPS or google map in the app. 
+
 <img class="ui image" src="../images/initial study 6.png">
 
+What would you remove from the app?
+
+It looks like a lot of participates were confused by this question and one joker replied "everything".
+
 <img class="ui image" src="../images/initial study 7.png">
+
+In between one to five, one being "I would rather use Uber" and 5 being "I would download it in a heartbeat". About 60% (3) of the participants stated that they would rate the app a 4/5. One particpant gave it a 3 and another participant gave it a 5. This shows overall at least all 5 participants enjoyed something from the app. 
 
 <img class="ui image" src="../images/initial study 8.png">
 
 ### Conclusion
 
+We were able to successfully launch our app. However there were some stuff that we weren't unable to implement into our app. 
