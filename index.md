@@ -449,9 +449,7 @@ We used an online user study survey to find what people thought of our app @ htt
 
 So far as of May only 5 participants tested our app and filled out the survey. After reviewing the results, we realized that there was one joker who gave us odd responses, however we did take into consideration that at least one or two people would fool around. 
 
-As shown in the image below, participants could only fill out the form if they tested the app and used their UH google account to log in and take the survey. Each participant could only fill out the survey once. 
-
-<img class="ui image" src="../images/initialstudy1.png">
+Participants could only fill out the form if they tested the app and used their UH google account to log in and take the survey. Each participant could only fill out the survey once. 
 
 Would you use this app if you carpooled? 
 
