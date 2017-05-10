@@ -21,6 +21,7 @@
   * [Configuration](#configuration)
   * [Quality Assurance](#quality-assurance)
     * [ESLint](#eslint)
+    * [Redeploy Meteor](#redeploy-meteor)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
@@ -344,6 +345,17 @@ meteor npm run lint
 ESLint should run without generating any errors.  
 
 It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
+
+### Redeploy Meteor
+If certain changes do not show up in the listing or mylisting page, such as no listing showing up on the Listings page or the save/update button not working on the mylisting page. Then you need to reset your local db by typing in:
+
+```
+meteor npm reset
+meteor npm install
+meteor npm run start
+```
+
+This should reset your local mongo which should show any recent changes done to the app.
 
 ### Survey
 
