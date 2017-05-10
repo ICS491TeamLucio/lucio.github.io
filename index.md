@@ -27,6 +27,8 @@
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
   * [Milestone 3](#milestone-3)
+  * [Intial User Study](#initial-user-study)
+  * [Conclusion](#conclusion)
 
 ### Overview UHPool
 
@@ -420,9 +422,46 @@ Network:
 Current website or app is accessible on: uhpool.meteorapp.com
 
 ### Milestone 3
+For Milestone 2 addtional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
+Milestone 2 started on April 13th 2017 and ended on April 27, 2017
+
+<img width="200px" src="images/landing3.png"/>
+<img width="200px" src="images/login3.png"/>
+<img width="200px" src="images/profile_page3.png"/>
+<img width="200px" src="images/edit_profile3.png"/>
+<img width="200px" src="images/listings3.png"/>
+<img width="200px" src="images/mylisting3.png"/>
 
 Milestone 3:
---add milestone 2 image here--
+<a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
+
+<img class="ui image" src="/images/project3.png">
 
 Network: 
---add network image here--
+<img class="ui image" src="/images/network3.png">
+
+### Initial User Study
+
+We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
+
+So far as of april only 11 particpates filled out the survey and results were quite surprising:
+According to the survey, a lot of people didn't know UH Manoa had a carpool system, people would consider giving carpooling a chance and people couldn't think of a solution to find someone to carpool with.
+
+<img class="ui image" src="../images/initialstudy1.png">
+
+<img class="ui image" src="../images/initialstudy2.png">
+
+<img class="ui image" src="../images/initial study 3.png">
+
+<img class="ui image" src="../images/initial study 4.png">
+
+<img class="ui image" src="../images/initial study 5.png">
+
+<img class="ui image" src="../images/initial study 6.png">
+
+<img class="ui image" src="../images/initial study 7.png">
+
+<img class="ui image" src="../images/initial study 8.png">
+
+### Conclusion
+
