@@ -4,8 +4,8 @@
 
 # Table of contents
 
-* [Overview: OHA website](#overview-OHA)
-  * [Walkthrough for OHA website](#walkthrough-OHA)
+* [Overview: OHA website](#overview-OHA-Website)
+  * [Walkthrough for OHA website](#walkthrough-OHA-Website)
 * [Installation](#installation)
   * [Branches](#branches)
   * [Heroku Website](#heroku-website)
@@ -19,12 +19,11 @@
   * [Authentication](#authentication)
   * [Authorization](#authorization)
   * [Configuration](#configuration)
-  * [Redeploy Meteor](#redeploy-heroku)
-  * [Quality Assurance](#quality-assurance)
+  * [Redeploy Heroku](#redeploy-heroku)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
-  * [HACC 2017](#HAAC2017)
+  * [HACC 2017](#HAAC-2017)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
   * [Intial User Study](#initial-user-study)
@@ -32,7 +31,7 @@
 
 ### Overview OHA Website
 
-### Walkthrough UHPool
+### Walkthrough OHA Website
 
 Access the website through: http://uhpool.meteorapp.com/
 
@@ -331,7 +330,7 @@ The [.gitignore](https://github.com/uhpool/UHPool/blob/master/.gitignore) file p
 
 UHPool checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/uhpool/UHPool/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/uhpool/UHPool/blob/master/app/private/database/initial-collection-data.json). 10 points if you can guess where these names come from for the profile collection.
 
-### Redeploy Meteor
+### Redeploy Heroku
 
 If certain changes do not show up in the listing or mylisting page, such as no listing showing up on the Listings page or the save/update button not working on the mylisting page. Then you need to reset your local db by typing in:
 
@@ -342,20 +341,6 @@ meteor npm run start
 ```
 
 This should reset your local mongo which should show any recent changes done to the app.
-
-### Quality Assurance
-
-### ESLint
-
-UHPool includes a [.eslintrc](https://github.com/uhpool/UHPool/blob/master/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
-
-```
-meteor npm run lint
-```
-
-ESLint should run without generating any errors.  
-
-It's significantly easier to do development with ESLint integrated directly into your IDE (such as IntelliJ).
 
 ### Survey
 
@@ -387,7 +372,7 @@ Our initial mockup pages before starting our milestone 1, using the digits templ
 
 https://github.com/uhpool/UHPool/projects/1
 
-### Milestone 1
+### HACC 2017
 
 For Milestone 1 five mockup pages were created for the project. The goal of milestone 1 was to create mockups of our app using the meteor app. The site allowed people to log in using their UH account however a lot of the functions in the website weren't fully operational. Milestone 1 started on April 5th, 2017 and ended on April 13th, 2017. 
 
@@ -397,12 +382,12 @@ For Milestone 1 five mockup pages were created for the project. The goal of mile
 <img width="200px" src="images/listings.png"/>
 <img width="200px" src="images/mylistings.png"/>
 
-Milestone 1:
+HACC 2017:
 <a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
 <img class="ui image" src="/images/Milestone1.png">
 
-Milestone2:
+Milestone 1:
 
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
@@ -411,7 +396,7 @@ Milestone2:
 Network:
 <img class="ui image" src="/images/Network.png">
 
-### Milestone 2
+### Milestone 1
 For Milestone 2 additional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
 Milestone 2 started on April 13th, 2017 and ended on April 27, 2017
 
@@ -421,12 +406,12 @@ Milestone 2 started on April 13th, 2017 and ended on April 27, 2017
 <img width="200px" src="images/listings2.png"/>
 <img width="200px" src="images/mylistings2.png"/>
 
-Milestone 2:
+Milestone 1:
 <a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
 <img class="ui image" src="/images/milestone2b.png">
 
-Milestone 3:
+Milestone 2:
 <a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
 
 <img class="ui image" src="/images/milestone3b.png">
@@ -436,9 +421,9 @@ Network:
 
 Current website or app is accessible on: uhpool.meteorapp.com
 
-### Milestone 3
-For Milestone 3 additional fixes were added to the project, the login page was created, updated schema for user and listing page, connected various pages to the database, created the initial user study, fixes were also made for the listing and mylisting page.
-Milestone 3 started on April 27th, 2017 and ended on May 09th, 2017
+### Milestone 2
+For Milestone 2 additional fixes were added to the project, the login page was created, updated schema for user and listing page, connected various pages to the database, created the initial user study, fixes were also made for the listing and mylisting page.
+Milestone 2 started on April 27th, 2017 and ended on May 09th, 2017
 
 <img width="200px" src="images/landing3.png"/>
 <img width="200px" src="images/login3.png"/>
@@ -447,7 +432,7 @@ Milestone 3 started on April 27th, 2017 and ended on May 09th, 2017
 <img width="200px" src="images/listings3.png"/>
 <img width="200px" src="images/mylisting3.png"/>
 
-Milestone 3:
+Milestone 2:
 <a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
 
 <img class="ui image" src="/images/project3.png">
