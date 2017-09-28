@@ -1,14 +1,14 @@
-## Welcome to UHPool
+## Welcome to ICS491Lucio - OHA Website
 
-<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>UHPool Meteor App</a>
+<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>OHA website</a>
 
 # Table of contents
 
-* [Overview: UHPool](#overview-uhpool)
-  * [Walkthrough for UHPool](#walkthrough-uhpool)
+* [Overview: OHA website](#overview-OHA)
+  * [Walkthrough for OHA website](#walkthrough-OHA)
 * [Installation](#installation)
   * [Branches](#branches)
-  * [Meteor Website](#meteor-website)
+  * [Heroku Website](#heroku-website)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
   * [Import conventions](#import-conventions)
@@ -19,19 +19,18 @@
   * [Authentication](#authentication)
   * [Authorization](#authorization)
   * [Configuration](#configuration)
-  * [Redeploy Meteor](#redeploy-meteor)
+  * [Redeploy Meteor](#redeploy-heroku)
   * [Quality Assurance](#quality-assurance)
-    * [ESLint](#eslint)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
+  * [HACC 2017](#HAAC2017)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
-  * [Milestone 3](#milestone-3)
   * [Intial User Study](#initial-user-study)
   * [Conclusion](#conclusion)
 
-### Overview UHPool
+### Overview OHA Website
 
 ### Walkthrough UHPool
 
