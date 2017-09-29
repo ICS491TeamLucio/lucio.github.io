@@ -1,6 +1,6 @@
 ## Welcome to ICS491Lucio - OHA Website
 
-<a href="http://uhpool.meteorapp.com/"><i class="large github icon"></i>OHA website</a>
+<a href="https://ohagrants.herokuapp.com/"><i class="large github icon"></i>OHA website</a>
 
 # Table of contents
 
@@ -33,80 +33,42 @@
 
 ### Walkthrough OHA Website
 
-Access the website through: http://uhpool.meteorapp.com/
+Access the website through: https://ohagrants.herokuapp.com/
 
-UHPool is a meteor app that allows people to find other carpoolers in the UH community. 
-When first accessing UHPool, everyone will be greeted by the landing page showing why they should join to use the app and images that show a preview of the app. It explains "why you should carpool?" and "why you should use this app?". The login button will direct a link to a UH login page, login using your UH Manoa account. 
+OHA website is a angular app that allows the community and government officials to gain access to grants and scholarships for Hawaiian descendants. 
+When first accessing th OHA website, everyone will be greeted by the landing page showing any news and updates. It then explains about our team and the website. 
 
 Landing Page:
 <img class="ui image" src="/images/landings2.png">
 
-Login Page:
-<img class="ui image" src="/images/login3.png">
-
-After logging in, inexperienced users will have to put in their personal information so enter your full name, a picture of yourself, picture of your car, type of vehicle, capacity limit of your car, location (area) where you want to be picked up, and a short biography about yourself. 
-
-Edit Profile:
+Listing Page:
 <img class="ui image" src="/images/edit2.png">
 
-The profile page reflects the information you input from the edit profile page, it also shows an example what people will see when they click on your profile and what you'll see when clicking on other people’s profile page. 
+The listing page shows all the grants and scholarships in a list. It also allows the user to filter out and search through all the grants and show data analysis for the selected amount of grants and scholarships. 
 
-Profile Page:
+QA Page:
 <img class="ui image" src="/images/profile2.png">
 
-The listing page will show other users on the app that are also looking for other carpoolers. In this page, you can search for a driver or passenger at certain time periods that fit your schedule. By matching the day, time and area you can then click accept to send the user a notice that you're interested in carpooling with them. 
+Answers any pages that a user may have, plan to include tutorial videos or images in the near future.
 
-Listing page:
+Contact Us page:
 <img class="ui image" src="/images/listings2.png">
 
-Your own listing page that to set up the time and dates when you are available to carpool with someone. Enter in your pickup location, drop off location, day, pickup time and drop-off time. So, if you want to carpool for 5 days then you should have 5 lines. It will then be posted on the listing page where other people can accept it.
-
-My Listing Page:
-<img class="ui image" src="/images/mylistings2.png">
+Includes how to contact our team and it also includes a google survey form that users can fill out to give back their experience on the website.
 
 ### Installation
 
-First, [install Meteor](https://www.meteor.com/install).
+Optional, [install Atom](https://atom.io/).
 
-Second, [download a copy of UHPool](https://github.com/uhpool/uhpool.github.io/zipball/master), or clone it using git.
+First, [install Angular](https://angular.io/guide/quickstart).
+
+Second, [download a copy of Lucio](https://github.com/ICS491TeamLucio/ICS491Lucio.git), or clone it using git.
   
-Third, cd into the app/ directory and install libraries with:
+Third, [install Flask](http://flask.pocoo.org/)
 
-```
-$ meteor npm install
-```
+Please note you may have to install [the latest version of python](https://www.python.org/downloads/).
 
-Fourth, run the system with:
-
-before using this code make sure that your package.json file contains this code:
-
-```
-{
-  "name": "uhpool",
-  "private": true,
-  "scripts": {
-    "start": "meteor --no-release-check --settings ../config/settings.json",
-    "develop": "meteor --no-release-check --settings ../config/settings.development.json",
-    "lint": "eslint ./imports",
-    "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json -r .",
-    "test-watch": "meteor test --driver-package practicalmeteor:mocha --port 3100",
-    "deploy": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy uhpool.meteorapp.com --owner ics314s17 --settings ../config/settings.json"
-  }
-```
-
-This gives a shortcut for the command line into:
-
-```
-$ meteor npm run start
-```
-
-which is preferable to type than:
-
-```
-meteor --no-release-check --settings ../config/settings.json",
-```
-
-If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000). If you have an account on the UH test CAS server, you can login.  
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).  
 
 ### Branches
 
@@ -138,34 +100,13 @@ Lastly when pushing or pulling from github, merging with the master is required 
 $ git merge [master -Say if your current branch is issue-XX]
 ```
 
-### Meteor Website
+### Heroku Website
 
-To use and make a meteor app website, first create an account on the [Galaxy website](https://galaxy.meteor.com/) After creating an account it will be costly to push any website onto galaxy so it's best to work with an organization that has limited slots but will be able to push your website for free. 
+To use and make a meteor app website, first create an account on the [Heroku website](https://www.heroku.com/) After creating an account, you should have one website that you can deploy for free.
 
-For more instructions, please at [E54: Test deploy to Galaxy](http://courses.ics.hawaii.edu/ics314s17/morea/deployment/experience-test-deployment.html)
+For better instructions please follow this [website](https://progblog.io/How-to-deploy-a-Flask-App-to-Heroku/).
 
-To avoid typing in 3-4 additional lines of codes put this code snippet into the ...app/package.json file:
-
-```
-{
-  "name": "uhpool",
-  "private": true,
-  "scripts": {
-    "start": "meteor --no-release-check --settings ../config/settings.json",
-    "develop": "meteor --no-release-check --settings ../config/settings.development.json",
-    "lint": "eslint ./imports",
-    "jsdoc": "./node_modules/.bin/jsdoc -c ./jsdoc.json -r .",
-    "test-watch": "meteor test --driver-package practicalmeteor:mocha --port 3100",
-    "deploy": "DEPLOY_HOSTNAME=galaxy.meteor.com meteor deploy uhpool.meteorapp.com --owner ics314s17 --settings ../config/settings.json"
-  }
-```
-This allows you to deploy your code onto your galaxy app by typing:
-
-```
-$ meteor npm run deploy
-```
-
-You should then be able to access uhpool online on the website: uhpool.meteorapp.com
+You should then be able to access the website online on: https://nameofapp.herokuapp.com/
 
 ### Application Design
 
@@ -174,15 +115,14 @@ You should then be able to access uhpool online on the website: uhpool.meteorapp
 The top-level directory structure contains:
 
 ```
-app/        # holds the Meteor application sources
-config/     # holds configuration files, such as settings.development.json
-.gitignore  # don't commit IntelliJ project files, node_modules, and settings.production.json
+src/        # holds the Angular application sources
+.gitignore  # doesn't commit .DS_Store, .htaccess, *.pyc
 ```
-However, we will be focusing heavily on the app folder that contains nearly 90% of the file contents. The config/settings.development.json file contains the login information for the user that connects with the UH network. Each directory has its own sub-index that shows all the files in that directory which will be further explained in "Import conventions".
+However, we will be focusing heavily on the src folder that contains nearly 90% of the file contents. Each directory has its own sub-index that shows all the files in that directory which will be further explained in "Import conventions".
 
-The app/ directory has this top-level structure:
+The src/ directory has this top-level structure:
 
-```
+```  
 client/
   lib/           
   head.html      # the <head>
@@ -265,7 +205,7 @@ This system adopts the following naming conventions:
 
 ### Data model
 
-The UHPool data model is implemented by three JavaScript classes: [ProfileCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/profile/ProfileCollection.js) and [AllListingsCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/all_listings/AllListingsCollection.js). Both classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and AllListing)that provides access to that collection. 
+The OHA grant data model is implemented by three JavaScript classes: [ProfileCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/profile/ProfileCollection.js) and [AllListingsCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/all_listings/AllListingsCollection.js). Both classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and AllListing)that provides access to that collection. 
 
 Any part of the system that manipulates the UHPool data model imports the Profiles or AllListing variable, and invokes methods of that class to get or set data.
 
@@ -344,7 +284,7 @@ This should reset your local mongo which should show any recent changes done to 
 
 ### Survey
 
-We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/Sn69DvwC8G04OhqN2
+We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/mlk02azs1h2AXxCS2
 
 So far as of April only 11 participants filled out the survey and results were quite surprising:
 According to the survey, a lot of people didn't know UH Manoa had a carpool system, people would consider giving carpooling a chance and people couldn't think of a solution to find someone to carpool with.
@@ -363,7 +303,7 @@ According to the survey, a lot of people didn't know UH Manoa had a carpool syst
 
 ### Initial Mockup Pages
 
-Our initial mockup pages before starting our milestone 1, using the digits template. 
+Our initial mockup pages before starting our HACC 2017, it contains the brainstorm and paper prototype of our website.
 
 <img width="200px" src="images/landing.png"/>
 <img width="200px" src="images/profile-page.png"/>
