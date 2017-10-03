@@ -1,5 +1,8 @@
 ## Welcome to ICS491Lucio - OHA Website
 
+Before we begin here's our personal professional portfolios:
+<a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
+
 <a href="https://ohagrants.herokuapp.com/"><i class="large github icon"></i>OHA website</a>
 
 # Table of contents
