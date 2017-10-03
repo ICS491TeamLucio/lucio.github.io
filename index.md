@@ -329,7 +329,7 @@ HACC 2017:
 
 Milestone 1:
 
-<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
 <img class="ui image" src="/images/Milestone2.png">
 
@@ -347,12 +347,12 @@ Milestone 2 started on April 13th, 2017 and ended on April 27, 2017
 <img width="200px" src="images/mylistings2.png"/>
 
 Milestone 1:
-<a href="https://github.com/uhpool/UHPool/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/1"></i>Milestone Project 1</a>
 
 <img class="ui image" src="/images/milestone2b.png">
 
 Milestone 2:
-<a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
+<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
 <img class="ui image" src="/images/milestone3b.png">
 
@@ -373,7 +373,7 @@ Milestone 2 started on April 27th, 2017 and ended on May 09th, 2017
 <img width="200px" src="images/mylisting3.png"/>
 
 Milestone 2:
-<a href="https://github.com/uhpool/UHPool/projects/3"><i class="large github icon"></i>Milestone Project 3</a>
+<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
 <img class="ui image" src="/images/project3.png">
 
