@@ -123,36 +123,27 @@ However, we will be focusing heavily on the src folder that contains nearly 90% 
 The src/ directory has this top-level structure:
 
 ```  
-client/
-  lib/           
+data/
+  data/           
   head.html      # the <head>
   main.js        # import all the client-side html and js files (important if creating or deleting any directories)
 
-imports/
-  api/           # Define collection processing code (client + server side)
-    base/        # BaseCollection is an abstract superclass of all RadGrad data model entities.
-    interest/    # Represents a specific interest, such as "Software Engineering".
-    profile/     # Profiles provide portfolio data for a user.
-    user_accepted_listings/
-  startup/       # Define code to run when system starts up (client-only, server-only)
-    client/      # Contains the router and user account-configuration.js page to link other pages
-    server/      # Initializes the database and publish the interest and profiles.
+static/
+  bower_components/           # Define collection processing code (client + server side)
+    components/        # BaseCollection is an abstract superclass of all RadGrad data model entities.
+    css/    # Represents a specific interest, such as "Software Engineering".
+    images/     # Profiles provide portfolio data for a user.
+    js/
   ui/
-    components/  # templates that appear inside a page template.
-    layouts/     # Layouts contain common elements to all pages (i.e. menubar and footer)
-    pages/       # Pages are navigated to by FlowRouter routes.
-    stylesheets/ # CSS customizations, if any.
 
-node_modules/    # managed by Meteor
-
-private/
+templates/
   database/      # holds the JSON file used to initialize the database on startup.
 
-public/          
-  images/        # holds static images for the website
-  
-server/
-   main.js       # import all the server-side js files.
+app.py/         # impoty os - needed for Flask
+graph.png/      # generate plot as image passable to frontend
+parse_to_json.py/# used to parse information from excel to data
+test.html/      # generate plot as image passable to frontend
+tests.py/       # generate plot as image passable to frontend
 ```
 
 ### Import conventions
