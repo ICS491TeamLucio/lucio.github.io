@@ -79,7 +79,7 @@ Third, [install Flask](http://flask.pocoo.org/)
 
 Please note you may have to install [the latest version of python](https://www.python.org/downloads/).
 
-If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000).  
+If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000) or whatever default server that will be printed onto the screen. 
 
 ### Branches
 
@@ -349,9 +349,9 @@ That college students are busy with school, work and life. We had a hard time tr
 Learning from our mistakes to improve ourselves in the future or the next HACC. We do have two people that plan on continuing this project after the HACC. We're hoping to expand on this project and implement ideas that we weren't able to be completed during the HACC. Such as adding more information on the grants that are being issued, tutorial videos that explain how the website work and making the overall appearance of the website better. 
 
 HACC 2017:
-<a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
+<a href="https://devpost.com/software/lucio">HACC 2017 Devpost</a>
 
-<img class="ui image" src="/images/Milestone1.png">
+<img class="ui image" src="/images/DevPost.jpg">
 
 Milestone 1:
 
@@ -362,9 +362,12 @@ Milestone 1:
 Network:
 <img class="ui image" src="/images/Network.png">
 
+HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
+
 ### Milestone 1
-For Milestone 2 additional fixes were added to the project, the landing page images were updated, created schema for user and listing page, connected various pages to the database, created a user and developer guide and created a footer and header.
-Milestone 2 started on April 13th, 2017 and ended on April 27, 2017
+For Milestone 1 the main goal was to fix the overall visuals of the website. Learning from the judges feedback our website lacked visual 
+For Milestone 1 additional fixes were added to the project, the landing page, and listing pages were updated, We also created a user and developer guide. Then we finally created the QA webpage and added some tutorial videos in the QA page. The main goal of milestone 1 
+Milestone 2 started on September 23th, 2017 and ended on November 1st, 2017
 
 <img width="200px" src="images/landings2.png"/>
 <img width="200px" src="images/profile2.png"/>
