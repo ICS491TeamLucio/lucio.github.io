@@ -3,6 +3,8 @@
 Before we begin here's our personal professional portfolios:
 <a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
 
+<a href="">Vincent professional portfolio
+
 <a href="https://ohagrants.herokuapp.com/"><i class="large github icon"></i>OHA website</a>
 
 # Table of contents
@@ -27,6 +29,12 @@ Before we begin here's our personal professional portfolios:
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#HAAC-2017)
+    *[What it does](#what-it-does)
+    *[How we built it](#how-we-built-it)
+    *[Challenges we ran into](#challenges-we-ran-into)
+    *[Accomplishments that we're proud of](#accomplishments-that-we're-proud-of)
+    *[What we learned](#what-we-learned)
+    *[What's next for Lucio](#what's-next-for-lucio)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
   * [Intial User Study](#initial-user-study)
@@ -317,13 +325,28 @@ https://github.com/uhpool/UHPool/projects/1
 
 ### HACC 2017
 
-For Milestone 1 five mockup pages were created for the project. The goal of milestone 1 was to create mockups of our app using the meteor app. The site allowed people to log in using their UH account however a lot of the functions in the website weren't fully operational. Milestone 1 started on April 5th, 2017 and ended on April 13th, 2017. 
+All of this was from our DevPost page for the HACC 2017:
 
-<img width="200px" src="images/landings.png"/>
-<img width="200px" src="images/profile.png"/>
-<img width="200px" src="images/edit.png"/>
-<img width="200px" src="images/listings.png"/>
-<img width="200px" src="images/mylistings.png"/>
+Inspiration
+This was our first hackathon for all of us so we wanted to gain experience in the HACC, so even if we didn't win, we'll still get experience which can be more valuable than the prize. Our team name: Lucio is comes from the game Overwatch that one of our teammate loves to play and that no one else had a better name to come up with. 
+
+What it does
+It's supposed to show all the grants from 2013-2016 in a table that can be filtered with a search bar and a graphical representation (pie chart, bar graph,...) will also appear to give more useful data on the grants. Such as the amount of grants that was awarded in 2013 or the type of different grants that are around one hundred thousand dollars. This allows any users such as a government official get a better idea on the grants being issued or to a grant recipient trying to find which grant fits their needs.  
+
+How we built it
+For our editor we used Atom, for our front-end and back-end we used Angular, for our web framework we used Flask and for our deployment we used Heroku. We mostly used HTML, Python, and other basic languages used to build a website.
+
+Challenges we ran into
+A lot of the team was busy with school and work so it was hard for everyone to get together to work on the project. Some folks were so busy that they had little or no time to do any work on the project which cut down our manpower. Some of the smaller challenges that we faced were implementing some of our ideas into the project such as creating analysis tools or even deploying the project on Heroku. Other challenges was the understanding of using angular and Flask. For example a lot of us were unfamiliar with using Angular however fortunately we had one teammate who was a professional at using Angular. For Flask we were unable to solve the problem where we couldn't get the website to automatically refresh after we made some changes to our project. 
+
+Accomplishments that we're proud of
+Being able to complete a functional website by the due date, there were a couple of times where we thought we wouldn't be able to make the deadline due to some difficulties. However we're proud to meet the requirements of having a functional website such as our search engine through the multiple grants in the table and the analysis tools that display useful information to the user. We know that our project may be limited and unappealing to the eyes but we're proud of our project. 
+
+What we learned
+That college students are busy with school, work and life. We had a hard time trying to balance between schedules and this hackathon. In fact we had some folks that were unable to meet up until a week after the first check in. However some of us did learn a lot about project management, new applications, new software's and a good refresher for some of us. For the most part a lot of us learned about tools and languages that we didn't know about until the hackathon. Such as Angular, Flask and even Python for some of us. Other new things that we learned was how to create analysis tools such as pie charts or bar graphs for our database in our website. 
+
+What's next for Lucio
+Learning from our mistakes to improve ourselves in the future or the next HACC. We do have two people that plan on continuing this project after the HACC. We're hoping to expand on this project and implement ideas that we weren't able to be completed during the HACC. Such as adding more information on the grants that are being issued, tutorial videos that explain how the website work and making the overall appearance of the website better. 
 
 HACC 2017:
 <a href="https://github.com/uhpool/UHPool/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
