@@ -1,10 +1,5 @@
 ## Welcome to ICS491Lucio - OHA Website
 
-Before we begin here's our personal professional portfolios:
-<a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
-
-<a href="">Vincent professional portfolio
-
 <a href="https://ohagrants.herokuapp.com/"><i class="large github icon"></i>OHA website</a>
 
 # Table of contents
@@ -24,21 +19,15 @@ Before we begin here's our personal professional portfolios:
   * [Authentication](#authentication)
   * [Authorization](#authorization)
   * [Configuration](#configuration)
-  * [Redeploy Heroku](#redeploy-heroku)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#hacc-2017)
-  * [What it does](#what-it-does)
-  * [How we built it](#how-we-built-it)
-  * [Challenges we ran into](#challenges-we-ran-into)
-  * [Accomplishments that we are proud of](#accomplishments-that-we-are-proud-of)
-  * [What we learned](#what-we-learned)
-  * [What is next for Lucio](#what-is-next-for-lucio)
   * [Milestone 1](#milestone-1)
   * [Milestone 2](#milestone-2)
   * [Intial User Study](#initial-user-study)
   * [Conclusion](#conclusion)
+* [Personal-Professional-Portfolios](#personal-professional-portfolios)
 
 ### Overview OHA Website
 
@@ -281,18 +270,6 @@ The [.gitignore](https://github.com/uhpool/UHPool/blob/master/.gitignore) file p
 
 UHPool checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/uhpool/UHPool/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/uhpool/UHPool/blob/master/app/private/database/initial-collection-data.json). 10 points if you can guess where these names come from for the profile collection.
 
-### Redeploy Heroku
-
-If certain changes do not show up in the listing or mylisting page, such as no listing showing up on the Listings page or the save/update button not working on the mylisting page. Then you need to reset your local db by typing in:
-
-```
-meteor npm reset
-meteor npm install
-meteor npm run start
-```
-
-This should reset your local mongo which should show any recent changes done to the app.
-
 ### Survey
 
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/mlk02azs1h2AXxCS2
@@ -319,7 +296,6 @@ Our initial mockup pages before starting our HACC 2017, it contains the brainsto
 <img width="200px" src="images/landing.png"/>
 <img width="200px" src="images/profile-page.png"/>
 <img width="200px" src="images/listings-page.png"/>
-<img width="200px" src="images/yourListings.png"/>
 
 https://github.com/uhpool/UHPool/projects/1
 
@@ -327,25 +303,25 @@ https://github.com/uhpool/UHPool/projects/1
 
 All of this was from our DevPost page for the HACC 2017:
 
-## Inspiration:
+Inspiration:
 This was our first hackathon for all of us so we wanted to gain experience in the HACC, so even if we didn't win, we'll still get experience which can be more valuable than the prize. Our team name: Lucio is comes from the game Overwatch that one of our teammate loves to play and that no one else had a better name to come up with. 
 
-## What it does:
+What it does:
 It's supposed to show all the grants from 2013-2016 in a table that can be filtered with a search bar and a graphical representation (pie chart, bar graph,...) will also appear to give more useful data on the grants. Such as the amount of grants that was awarded in 2013 or the type of different grants that are around one hundred thousand dollars. This allows any users such as a government official get a better idea on the grants being issued or to a grant recipient trying to find which grant fits their needs.  
 
-## How we built it:
+How we built it:
 For our editor we used Atom, for our front-end and back-end we used Angular, for our web framework we used Flask and for our deployment we used Heroku. We mostly used HTML, Python, and other basic languages used to build a website.
 
-## Challenges we ran into:
+Challenges we ran into:
 A lot of the team was busy with school and work so it was hard for everyone to get together to work on the project. Some folks were so busy that they had little or no time to do any work on the project which cut down our manpower. Some of the smaller challenges that we faced were implementing some of our ideas into the project such as creating analysis tools or even deploying the project on Heroku. Other challenges was the understanding of using angular and Flask. For example a lot of us were unfamiliar with using Angular however fortunately we had one teammate who was a professional at using Angular. For Flask we were unable to solve the problem where we couldn't get the website to automatically refresh after we made some changes to our project. 
 
-## Accomplishments that we are proud of:
+Accomplishments that we are proud of:
 Being able to complete a functional website by the due date, there were a couple of times where we thought we wouldn't be able to make the deadline due to some difficulties. However we're proud to meet the requirements of having a functional website such as our search engine through the multiple grants in the table and the analysis tools that display useful information to the user. We know that our project may be limited and unappealing to the eyes but we're proud of our project. 
 
-## What we learned:
+What we learned:
 That college students are busy with school, work and life. We had a hard time trying to balance between schedules and this hackathon. In fact we had some folks that were unable to meet up until a week after the first check in. However some of us did learn a lot about project management, new applications, new software's and a good refresher for some of us. For the most part a lot of us learned about tools and languages that we didn't know about until the hackathon. Such as Angular, Flask and even Python for some of us. Other new things that we learned was how to create analysis tools such as pie charts or bar graphs for our database in our website. 
 
-## What is next for Lucio:
+What is next for Lucio:
 Learning from our mistakes to improve ourselves in the future or the next HACC. We do have two people that plan on continuing this project after the HACC. We're hoping to expand on this project and implement ideas that we weren't able to be completed during the HACC. Such as adding more information on the grants that are being issued, tutorial videos that explain how the website work and making the overall appearance of the website better. 
 
 HACC 2017:
@@ -364,118 +340,15 @@ Network:
 
 HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 
-### Milestone 1
-For Milestone 1 the main goal was to fix the overall visuals of the website. Learning from the judges feedback our website lacked visual 
-For Milestone 1 additional fixes were added to the project, the landing page, and listing pages were updated, We also created a user and developer guide. Then we finally created the QA webpage and added some tutorial videos in the QA page. The main goal of milestone 1 
-Milestone 2 started on September 23th, 2017 and ended on November 1st, 2017
-
 <img width="200px" src="images/landings2.png"/>
 <img width="200px" src="images/profile2.png"/>
 <img width="200px" src="images/edit2.png"/>
 <img width="200px" src="images/listings2.png"/>
 <img width="200px" src="images/mylistings2.png"/>
 
-Milestone 1:
-<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/1"></i>Milestone Project 1</a>
+## Personal Professional Portfolios
 
-<img class="ui image" src="/images/milestone2b.png">
+Before we begin here's our personal professional portfolios:
+<a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
 
-Milestone 2:
-<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
-
-<img class="ui image" src="/images/milestone3b.png">
-
-Network: 
-<img class="ui image" src="/images/network2.png">
-
-Current website or app is accessible on: uhpool.meteorapp.com
-
-### Milestone 2
-For Milestone 2 additional fixes were added to the project, the login page was created, updated schema for user and listing page, connected various pages to the database, created the initial user study, fixes were also made for the listing and mylisting page.
-Milestone 2 started on April 27th, 2017 and ended on May 09th, 2017
-
-<img width="200px" src="images/landing3.png"/>
-<img width="200px" src="images/login3.png"/>
-<img width="200px" src="images/profile_page3.png"/>
-<img width="200px" src="images/edit_profile3.png"/>
-<img width="200px" src="images/listings3.png"/>
-<img width="200px" src="images/mylisting3.png"/>
-
-Milestone 2:
-<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
-
-<img class="ui image" src="/images/project3.png">
-
-Network: 
-<img class="ui image" src="/images/network3.png">
-
-### Initial User Study
-
-We used an online user study survey to find what people thought of our app @ https://goo.gl/forms/dKtHRmHfRl8KPUMC3
-
-So far as of May only 5 participants tested our app and filled out the survey. After reviewing the results, we realized that there was one joker who gave us odd responses, however we did take into consideration that at least one or two people would fool around. 
-
-Participants could only fill out the form if they tested the app and used their UH google account to log in and take the survey. Each participant could only fill out the survey once. 
-
-Would you use this app if you carpooled? 
-
-Out of 5 of the participants only one said no. So, this states that at least one person has either a better carpool app to use or wouldn't use an app to find someone to carpool with.
-
-<img class="ui image" src="../images/initialstudy2.png">
-
-We're happy to announce that all five participants would recommend the app to others.
-
-<img class="ui image" src="../images/initial study 3.png">
-
-What did you find good about the app? 
-
-Apparently, our general functions and UI interface was easy to use. Someone also just liked the idea of using a carpool app.
-
-<img class="ui image" src="../images/initial study 4.png">
-
-What did you find bad about the app? 
-
-One participant stated that "I don't want to meet random people," it's hard to state if they were serious or not however our initial concept of creating this app is to find "someone" to carpool with. If we could easily find a friend or family member to carpool with we wouldn't have created this app in the first place. 
-
-Another participant stated that the landing page background isn't too aesthetically appealing. After thinking about it, I could understand where this person was talking about. Having a background of traffic isn't a pretty sight, something like the picture of the campus of UH. 
-
-"Nothing works yet", and "Needs some minor improvements on other functions", unfortunately this is a bit too vague on what parts the participant is talking about. 
-
-<img class="ui image" src="../images/initial study 5.png">
-
-What would you include in the app?
-
-Participates stated they would prefer to include more images or a GPS or google map in the app. 
-
-<img class="ui image" src="../images/initial study 6.png">
-
-What would you remove from the app?
-
-It looks like a lot of participates were confused by this question and one joker replied "everything".
-
-<img class="ui image" src="../images/initial study 7.png">
-
-In between one to five, one being "I would rather use Uber" and 5 being "I would download it in a heartbeat". About 60% (3) of the participants stated that they would rate the app a 4/5. One participant gave it a 3 and another participant gave it a 5. This shows overall at least all 5 participants enjoyed something from the app. 
-
-<img class="ui image" src="../images/initial study 8.png">
-
-We're happy that most the participants enjoyed using the app. However, we did note that next time we should improve the aesthetics such as the background image and try to include a GPS or map to help find routes and locations. 
-
-### Conclusion
-
-We could successfully launch our app. However, there were some stuff that we weren't unable to implement into our app. 
-Such as the beyond the basics:
-- Support reviews of other users, for any previous negative experience with a certain user (Star or thumbs up or down rating).
-- A filter system for number of occupants their vehicle can hold, city, and school schedule.
-- Email and website system to notify any users of inquires or matches.
-
-We were so focused on just getting our app to work that we simply did not have the time to implement these specific features into the app. In the end the most important thing to have was an app or website that worked and that's what we accomplished. 
-
-Things that we improved on in this project:
-- Teamwork, we all gained each other’s trust and worked together as one group.
-- Knowledge and improvement on using Meteor and IntelliJ.
-
-Things we could improve on:
-- Getting together, we slowly got together less after we finished milestone 2.
-- Having a stronger plan, we should've perfected the important stuff first like the landing or listing page before trying to add a search function or automatic email updates.
-
+<a href="">Vincent professional portfolio
