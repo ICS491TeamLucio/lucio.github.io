@@ -24,9 +24,6 @@
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#hacc-2017)
   * [Milestone 1](#milestone-1)
-  * [Milestone 2](#milestone-2)
-  * [Intial User Study](#initial-user-study)
-  * [Conclusion](#conclusion)
 * [Personal-Professional-Portfolios](#personal-professional-portfolios)
 
 ### Overview OHA Website
@@ -211,7 +208,7 @@ Both ProfileCollection and AllListingCollection have Mocha unit tests in [Profil
 
 ### CSS
 
-The application uses the [Semantic UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
+The application uses the [Angular UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
 
 The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory). 
 
@@ -266,20 +263,10 @@ UHPool checks on startup to see if it has an empty database in [initialize-datab
 
 ### Survey
 
-We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/mlk02azs1h2AXxCS2
+We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/UvFFHUN7N2ZltB4z1
 
-So far as of April only 11 participants filled out the survey and results were quite surprising:
-According to the survey, a lot of people didn't know UH Manoa had a carpool system, people would consider giving carpooling a chance and people couldn't think of a solution to find someone to carpool with.
-
-<img class="ui image" src="../images/pool survey 1.JPG">
-
-<img class="ui image" src="../images/pool survey 2.JPG">
-
-<img class="ui image" src="../images/pool survey 3.JPG">
-
-<img class="ui image" src="../images/pool survey 4.JPG">
-
-<img class="ui image" src="../images/pool survey 5.JPG">
+<img class="ui image" src="../images/survey1.jpg">
+<img class="ui image" src="../images/survey2.jpg">
 
 ## Development-History
 
@@ -287,9 +274,9 @@ According to the survey, a lot of people didn't know UH Manoa had a carpool syst
 
 Our initial mockup pages before starting our HACC 2017, it contains the brainstorm and paper prototype of our website.
 
-<img width="200px" src="images/landing.png"/>
-<img width="200px" src="images/profile-page.png"/>
-<img width="200px" src="images/listings-page.png"/>
+<img width="200px" src="images/frontpage.jpg"/>
+<img width="200px" src="images/listingandsearch1.jpg"/>
+<img width="200px" src="images/listingandsearch2.jpg"/>
 
 https://github.com/uhpool/UHPool/projects/1
 
@@ -325,20 +312,19 @@ HACC 2017:
 
 Milestone 1:
 
-<a href="https://github.com/ICS491TeamLucio/ICS491Lucio/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
+<a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
-<img class="ui image" src="/images/Milestone2.png">
+<img class="ui image" src="/images/M1.jpg">
 
 Network:
-<img class="ui image" src="/images/Network.png">
+<img class="ui image" src="/images/Network1.jpg">
 
 HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 
-<img width="200px" src="images/landings2.png"/>
-<img width="200px" src="images/profile2.png"/>
-<img width="200px" src="images/edit2.png"/>
-<img width="200px" src="images/listings2.png"/>
-<img width="200px" src="images/mylistings2.png"/>
+<img width="200px" src="images/landings1.jpg"/>
+<img width="200px" src="images/listing1.jpg"/>
+<img width="200px" src="images/QA1.jpg"/>
+<img width="200px" src="images/contact1.jpg"/>
 
 ## Personal Professional Portfolios
 
