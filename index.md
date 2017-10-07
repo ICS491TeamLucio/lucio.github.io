@@ -124,26 +124,29 @@ The src/ directory has this top-level structure:
 
 ```  
 data/
-  data/           
-  head.html      # the <head>
-  main.js        # import all the client-side html and js files (important if creating or deleting any directories)
-
+  OHA Test Data Grant_2013_2014_2015_2016_Table.xlsx # function to parse excel file           
+  
 static/
-  bower_components/           # Define collection processing code (client + server side)
-    components/        # BaseCollection is an abstract superclass of all RadGrad data model entities.
-    css/    # Represents a specific interest, such as "Software Engineering".
-    images/     # Profiles provide portfolio data for a user.
-    js/
-  ui/
+  bower_components/  # bootstrap, angular ui, suave ui, etc.
+  components/        # backend for the listing and visualizers
+  css/               # style.css
+  images/            # contains all the images used for the site
+  js/                # javascript
+    app.js/        # javascript for the app
+    listing.js/    # javascript for the listing page
+    route.js/      # route that connects each webpage to each other
 
 templates/
-  database/      # holds the JSON file used to initialize the database on startup.
-
-app.py/         # impoty os - needed for Flask
-graph.png/      # generate plot as image passable to frontend
-parse_to_json.py/# used to parse information from excel to data
-test.html/      # generate plot as image passable to frontend
-tests.py/       # generate plot as image passable to frontend
+  contactus.html/	# contact us page
+  index.html/	    # landing page
+  listings.html/	 # listing page
+  qa.html/	       # QA page
+     
+app.py/           # impoty os - needed for Flask
+graph.png/        # generate plot as image passable to frontend
+parse_to_json.py/ # used to parse information from excel to data
+test.html/        # generate plot as image passable to frontend
+tests.py/         # generate plot as image passable to frontend
 ```
 
 ### Import conventions
