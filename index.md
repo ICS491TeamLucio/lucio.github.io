@@ -144,44 +144,6 @@ test.html/        # generate plot as image passable to frontend
 tests.py/         # generate plot as image passable to frontend
 ```
 
-### Import conventions
-
-This system adheres to the Meteor 1.4 guideline of putting all application code in the imports/ directory, and using client/main.js and server/main.js to import the code appropriate for the client and server in an appropriate order.
-
-This system accomplishes client and server-side importing in a different manner than most Meteor sample applications. In this system, every imports/ subdirectory containing any JavaScript or HTML files has a top-level index.js file that is responsible for importing all files in its associated directory.   
-
-Then, client/main.js and server/main.js are responsible for importing all the directories containing code they need. For example, here is the contents of client/main.js:
-
-```
-import '/imports/startup/client';
-import '/imports/ui/components/form-controls';
-import '/imports/ui/components/directory';
-import '/imports/ui/components/user';
-import '/imports/ui/components/landing';
-import '/imports/ui/layouts/directory';
-import '/imports/ui/layouts/landing';
-import '/imports/ui/layouts/shared';
-import '/imports/ui/layouts/user';
-import '/imports/ui/pages/directory';
-import '/imports/ui/pages/filter';
-import '/imports/ui/pages/landing';
-import '/imports/ui/pages/listing';
-import '/imports/ui/pages/mylistings';
-import '/imports/ui/pages/user';
-import '/imports/ui/pages/edit';
-import '/imports/ui/stylesheets/style.css';
-import '/imports/api/base';
-import '/imports/api/profile';
-import '/imports/api/interest';
-import '/imports/api/user_accepted_listings';
-```
-
-Apart from the last line that imports style.css directly, the other lines all invoke the index.js file in the specified directory.
-
-We use this approach to make it simpler to understand what code is loaded and in what order, and to simplify debugging when some code or templates do not appear to be loaded.  In our approach, there are only two places to look for top-level imports: the main.js files in client/ and server/, and the index.js files in import subdirectories. In those subdirectories, they usually will contain any html, CSS and JavaScript files that the subdirectories will use. 
-
-Note that this two-level import structure ensures that all code and templates are loaded, but does not ensure that the symbols needed in each file are accessible.  So, for example, a symbol bound to a collection still needs to be imported into any file that references it. 
- 
 ### Naming conventions
 
 This system adopts the following naming conventions:
@@ -191,45 +153,6 @@ This system adopts the following naming conventions:
   * Other JavaScript variables are camel-case. Example: collectionList.
   * Templates representing pages are capitalized, with words separated by underscores. Example: Directory_Page. The files for this template are lower case, with hyphens rather than underscore. Example: directory-page.html, directory-page.js.
   * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
-
-### Data model
-
-The OHA grant data model is implemented by three JavaScript classes: [ProfileCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/profile/ProfileCollection.js) and [AllListingsCollection](https://github.com/uhpool/UHPool/blob/master/app/imports/api/all_listings/AllListingsCollection.js). Both classes encapsulate a MongoDB collection with the same name and export a single variable (Profiles and AllListing)that provides access to that collection. 
-
-Any part of the system that manipulates the UHPool data model imports the Profiles or AllListing variable, and invokes methods of that class to get or set data.
-
-There are many common operations on MongoDB collections. To simplify the implementation, the ProfileCollection and AllListingCollection classes inherit from the [BaseCollection](https://github.com/uhpool/UHPool/tree/master/app/imports/api/base) class.
-
-The [BaseUtilities](https://github.com/uhpool/UHPool/blob/master/app/imports/api/base/BaseUtilities.js) file contains functions that operate across both classes. 
-
-Both ProfileCollection and AllListingCollection have Mocha unit tests in [ProfileCollection.test.js](https://github.com/uhpool/UHPool/blob/master/app/imports/api/profile/ProfileCollection.test.js) and [AllListingCollection.test.js](https://github.com/uhpool/UHPool/blob/master/app/imports/api/all_listings/AllListingsCollection.test.js).
-
-### CSS
-
-The application uses the [Angular UI](http://semantic-ui.com/) CSS framework. To learn more about the Semantic UI theme integration with Meteor, see [Semantic-UI-Meteor](https://github.com/Semantic-Org/Semantic-UI-Meteor).
-
-The Semantic UI theme files are in [app/client/lib/semantic-ui](https://github.com/ics-software-engineering/meteor-application-template/tree/master/app/client/lib/semantic-ui) directory. Because they are in the client/ directory and not the imports/ directory, they do not need to be explicitly imported to be loaded. (Meteor automatically loads all files into the client that are in the client/ directory). 
-
-Note that the user pages contain a menu fixed to the top of the page, and thus the body element needs to have padding attached to it.  However, the landing page does not have a menu, and thus no padding should be attached to the body element on that page. To accomplish this, the [router](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/client/router.js) uses "triggers" to add a remove the appropriate classes from the body element when a page is visited and then left by the user. 
-
-List of some of the Semantic UI used in this project:
--Dropdown
--Accordion
--Cards
--Grid
--Container
--Table
-
-### Routing
-
-For display and navigation among its four pages, the application uses [Flow Router](https://github.com/kadirahq/flow-router).
-
-Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
-
-The OHA website defines the following routes:
-
-  * The `/` route goes to the public landing page.
-  * The `/directory` route goes to the public directory page.
 
 ### Configuration
 
@@ -263,24 +186,31 @@ https://github.com/uhpool/UHPool/projects/1
 All of this was from our DevPost page for the HACC 2017:
 
 Inspiration:
+
 This was our first hackathon for all of us so we wanted to gain experience in the HACC, so even if we didn't win, we'll still get experience which can be more valuable than the prize. Our team name: Lucio is comes from the game Overwatch that one of our teammate loves to play and that no one else had a better name to come up with. 
 
 What it does:
+
 It's supposed to show all the grants from 2013-2016 in a table that can be filtered with a search bar and a graphical representation (pie chart, bar graph,...) will also appear to give more useful data on the grants. Such as the amount of grants that was awarded in 2013 or the type of different grants that are around one hundred thousand dollars. This allows any users such as a government official get a better idea on the grants being issued or to a grant recipient trying to find which grant fits their needs.  
 
 How we built it:
+
 For our editor we used Atom, for our front-end and back-end we used Angular, for our web framework we used Flask and for our deployment we used Heroku. We mostly used HTML, Python, and other basic languages used to build a website.
 
 Challenges we ran into:
+
 A lot of the team was busy with school and work so it was hard for everyone to get together to work on the project. Some folks were so busy that they had little or no time to do any work on the project which cut down our manpower. Some of the smaller challenges that we faced were implementing some of our ideas into the project such as creating analysis tools or even deploying the project on Heroku. Other challenges was the understanding of using angular and Flask. For example a lot of us were unfamiliar with using Angular however fortunately we had one teammate who was a professional at using Angular. For Flask we were unable to solve the problem where we couldn't get the website to automatically refresh after we made some changes to our project. 
 
 Accomplishments that we are proud of:
+
 Being able to complete a functional website by the due date, there were a couple of times where we thought we wouldn't be able to make the deadline due to some difficulties. However we're proud to meet the requirements of having a functional website such as our search engine through the multiple grants in the table and the analysis tools that display useful information to the user. We know that our project may be limited and unappealing to the eyes but we're proud of our project. 
 
 What we learned:
+
 That college students are busy with school, work and life. We had a hard time trying to balance between schedules and this hackathon. In fact we had some folks that were unable to meet up until a week after the first check in. However some of us did learn a lot about project management, new applications, new software's and a good refresher for some of us. For the most part a lot of us learned about tools and languages that we didn't know about until the hackathon. Such as Angular, Flask and even Python for some of us. Other new things that we learned was how to create analysis tools such as pie charts or bar graphs for our database in our website. 
 
 What is next for Lucio:
+
 Learning from our mistakes to improve ourselves in the future or the next HACC. We do have two people that plan on continuing this project after the HACC. We're hoping to expand on this project and implement ideas that we weren't able to be completed during the HACC. Such as adding more information on the grants that are being issued, tutorial videos that explain how the website work and making the overall appearance of the website better. 
 
 HACC 2017:
