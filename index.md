@@ -34,7 +34,7 @@ OHA website is a angular app that allows the community and government officials 
 When first accessing th OHA website, everyone will be greeted by the landing page showing any news and updates. It then explains about our team and the website. 
 
 Landing Page:
-<img class="ui image" src="../images/landing1.png">
+<img class="ui image" src="/images/landing1.png">
 
 Listing Page:
 <img class="ui image" src="/images/listing1.png">
