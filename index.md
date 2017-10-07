@@ -34,20 +34,20 @@ OHA website is a angular app that allows the community and government officials 
 When first accessing th OHA website, everyone will be greeted by the landing page showing any news and updates. It then explains about our team and the website. 
 
 Landing Page:
-<img class="ui image" src="/images/landings2.png">
+<img class="ui image" src="/images/landing1.png">
 
 Listing Page:
-<img class="ui image" src="/images/edit2.png">
+<img class="ui image" src="/images/listing1.png">
 
 The listing page shows all the grants and scholarships in a list. It also allows the user to filter out and search through all the grants and show data analysis for the selected amount of grants and scholarships. 
 
 QA Page:
-<img class="ui image" src="/images/profile2.png">
+<img class="ui image" src="/images/qa1.png">
 
 Answers any pages that a user may have, plan to include tutorial videos or images in the near future.
 
 Contact Us page:
-<img class="ui image" src="/images/listings2.png">
+<img class="ui image" src="/images/contact1.png">
 
 Includes how to contact our team and it also includes a google survey form that users can fill out to give back their experience on the website.
 
@@ -299,9 +299,9 @@ Network:
 
 HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 
-<img width="200px" src="images/landings1.png"/>
+<img width="200px" src="images/landing1.png"/>
 <img width="200px" src="images/listing1.png"/>
-<img width="200px" src="images/QA1.png"/>
+<img width="200px" src="images/qa1.png"/>
 <img width="200px" src="images/contact1.png"/>
 
 ## Personal Professional Portfolios
