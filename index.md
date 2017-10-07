@@ -243,8 +243,8 @@ UHPool checks on startup to see if it has an empty database in [initialize-datab
 
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/UvFFHUN7N2ZltB4z1
 
-<img class="ui image" src="../images/survey1.jpg">
-<img class="ui image" src="../images/survey2.jpg">
+<img class="ui image" src="../images/survey1.png">
+<img class="ui image" src="../images/survey2.png">
 
 ## Development-History
 
@@ -252,9 +252,9 @@ We used an online survey to find suggestions and our target area for people to u
 
 Our initial mockup pages before starting our HACC 2017, it contains the brainstorm and paper prototype of our website.
 
-<img width="200px" src="images/frontpage.jpg"/>
-<img width="200px" src="images/listingandsearch1.jpg"/>
-<img width="200px" src="images/listingandsearch2.jpg"/>
+<img width="200px" src="images/frontpage.png"/>
+<img width="200px" src="images/listingandsearch1.png"/>
+<img width="200px" src="images/listingandsearch2.jpngpg"/>
 
 https://github.com/uhpool/UHPool/projects/1
 
@@ -286,23 +286,23 @@ Learning from our mistakes to improve ourselves in the future or the next HACC. 
 HACC 2017:
 <a href="https://devpost.com/software/lucio">HACC 2017 Devpost</a>
 
-<img class="ui image" src="/images/DevPost.jpg">
+<img class="ui image" src="/images/DevPost.png">
 
 Milestone 1:
 
 <a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
-<img class="ui image" src="/images/M1.jpg">
+<img class="ui image" src="/images/M1.png">
 
 Network:
-<img class="ui image" src="/images/Network1.jpg">
+<img class="ui image" src="/images/Network1.png">
 
 HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 
-<img width="200px" src="images/landings1.jpg"/>
-<img width="200px" src="images/listing1.jpg"/>
-<img width="200px" src="images/QA1.jpg"/>
-<img width="200px" src="images/contact1.jpg"/>
+<img width="200px" src="images/landings1.png"/>
+<img width="200px" src="images/listing1.png"/>
+<img width="200px" src="images/QA1.png"/>
+<img width="200px" src="images/contact1.png"/>
 
 ## Personal Professional Portfolios
 
