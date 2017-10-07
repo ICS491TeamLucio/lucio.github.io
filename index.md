@@ -1,4 +1,4 @@
-## Welcome to ICS491Lucio - OHA Website
+## Welcome to Da OHA Website
 
 <a href="https://ohagrants.herokuapp.com/"><i class="large github icon"></i>OHA website</a>
 
@@ -16,8 +16,6 @@
   * [Data model](#data-model)
   * [CSS](#css)
   * [Routing](#routing)
-  * [Authentication](#authentication)
-  * [Authorization](#authorization)
   * [Configuration](#configuration)
   * [Survey](#survey)
 * [Development history](#development-history)
@@ -228,30 +226,10 @@ For display and navigation among its four pages, the application uses [Flow Rout
 
 Routing is defined in [imports/startup/client/router.js](https://github.com/ics-software-engineering/meteor-application-template/blob/master/app/imports/startup/client/router.js).
 
-UHPool defines the following routes:
+The OHA website defines the following routes:
 
   * The `/` route goes to the public landing page.
   * The `/directory` route goes to the public directory page.
-  * The `/<user>/profile` route goes to the profile page associated with `<user>`, which is the UH account name.
-  * The `/<user>/filter` route goes to the filter page associated with `<user>`, which is the UH account name.
-
-### Authentication
-
-For authentication, the application uses the University of Hawaii CAS test server, and follows the approach shown in [meteor-example-uh-cas](http://ics-software-engineering.github.io/meteor-example-uh-cas/).
-
-When the application is run, the CAS configuration information must be present in a configuration file such as [config/settings.development.json](https://github.com/ics-software-engineering/meteor-application-template/blob/master/config/settings.development.json). 
-
-Anyone with a UH account can login and use UHPool to create a portfolio. The user will then create their own profile and image (and car image) to gain further access. 
-
-### Authorization
-
-The landing and directory pages are public; anyone can access those pages.
-
-The profile and filter pages require authorization: you must be logged in (i.e. authenticated) through the UH test CAS server, and the authenticated username returned by CAS must match the username specified in the URL.  So, for example, only the authenticated user `johnson` can access the pages `http://localhost:3000/johnson/profile` and `http://localhost:3000/johnson/filter`.
-
-To prevent people from accessing pages they are not authorized to visit, template-based authorization is used following the recommendations in [Implementing Auth Logic and Permissions](https://kadira.io/academy/meteor-routing-guide/content/implementing-auth-logic-and-permissions). 
-
-The application implements template-based authorization using an If_Authorized template, defined in [If_Authorized.html](https://github.com/uhpool/UHPool/blob/master/app/imports/ui/layouts/user/if-authorized.html) and [If_Authorized.js](https://github.com/uhpool/UHPool/blob/master/app/imports/ui/layouts/user/if-authorized.js).
 
 ### Configuration
 
