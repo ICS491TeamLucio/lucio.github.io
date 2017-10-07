@@ -11,12 +11,8 @@
   * [Heroku Website](#heroku-website)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
-  * [Import conventions](#import-conventions)
   * [Naming conventions](#naming-conventions)
-  * [Data model](#data-model)
-  * [CSS](#css)
   * [Routing](#routing)
-  * [Configuration](#configuration)
   * [Survey](#survey)
 * [Development history](#development-history)
   * [Initial Mockup Pages](#initial-mockup-pages)
@@ -154,14 +150,6 @@ This system adopts the following naming conventions:
   * Templates representing pages are capitalized, with words separated by underscores. Example: Directory_Page. The files for this template are lower case, with hyphens rather than underscore. Example: directory-page.html, directory-page.js.
   * Routes to pages are named the same as their corresponding page. Example: Directory_Page.
 
-### Configuration
-
-The [config](https://github.com/uhpool/UHPool/tree/master/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/uhpool/UHPool/blob/master/config/settings.development.json).
-
-The [.gitignore](https://github.com/uhpool/UHPool/blob/master/.gitignore) file prevents a file named settings.production.json from being committed to the repository. So, if you are deploying the application, you can put settings in a file named settings.production.json and it will not be committed. If committed people trying to use your work or pulling your files will suffer dearly. 
-
-UHPool checks on startup to see if it has an empty database in [initialize-database.js](https://github.com/uhpool/UHPool/blob/master/app/imports/startup/server/initialize-database.js), and if so, loads the file specified in the configuration file, such as [settings.development.json](https://github.com/uhpool/UHPool/blob/master/config/settings.development.json).  For development purposes, a sample initialization for this database is in [initial-collection-data.json](https://github.com/uhpool/UHPool/blob/master/app/private/database/initial-collection-data.json). 10 points if you can guess where these names come from for the profile collection.
-
 ### Survey
 
 We used an online survey to find suggestions and our target area for people to use our app @ https://goo.gl/forms/UvFFHUN7N2ZltB4z1
@@ -178,8 +166,6 @@ Our initial mockup pages before starting our HACC 2017, it contains the brainsto
 <img width="200px" src="images/frontpage.png"/>
 <img width="200px" src="images/listingandsearch1.png"/>
 <img width="200px" src="images/listingandsearch2.jpngpg"/>
-
-https://github.com/uhpool/UHPool/projects/1
 
 ## HACC 2017
 
