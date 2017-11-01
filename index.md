@@ -18,6 +18,7 @@
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#hacc-2017)
   * [Milestone 1](#milestone-1)
+  * [Milestone 2](#milestone-2)
 * [Personal-Professional-Portfolios](#personal-professional-portfolios)
 
 ### Overview OHA Website
@@ -204,7 +205,7 @@ HACC 2017:
 
 <img class="ui image" src="/images/DevPost.png">
 
-Milestone 1:
+### Milestone 1:
 
 <a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
@@ -220,9 +221,37 @@ HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 <img width="200px" src="images/qa1.png"/>
 <img width="200px" src="images/contact1.png"/>
 
+### Milestone 2
+For Milestone 2 additional fixes were added to the project, the front page images were updated, cards were added to the front page, the design of the website bar, footer and headers were updated. The QA page was also updated and the contact us page was updated into cards. A new platform for the backend called highcharts was also implemented instead of the matplotlib for the listing page.
+Milestone 2 started on September 23, 2017 and ended on November 1, 2017
+
+<img width="200px" src="images/frontpage2.JPG"/>
+<img width="200px" src="images/listing2.JPG"/>
+<img width="200px" src="images/QApage.JPG"/>
+<img width="200px" src="images/contactuspage.JPG"/>
+
+Milestone 1:
+<a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
+
+<img class="ui image" src="/images/M1.JPG">
+
+Milestone 2:
+<a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+
+<img class="ui image" src="/images/M2.JPG">
+
+Network: 
+<img class="ui image" src="/images/network2.JPG">
+
+Current website or app is accessible on: https://oha-grant-listings.herokuapp.com/
+
+Whats planed for the next milestone: 
+Now that the front end of the website is a lot better we will now start working on the back end portion of the website. So we will focus more on the listing page and continue to implement highcharts and add some functions such as cross referencing and drill down for the listing page. Finally we hope to add a tutorial video and testing from people at the ICS space before December 1, 2017. 
+
 ## Personal Professional Portfolios
 
 Before we begin here's our personal professional portfolios:
+
 <a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
 
 <a href="">Vincent professional portfolio
