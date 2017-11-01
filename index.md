@@ -36,6 +36,9 @@ Landing Page:
 Listing Page:
 <img class="ui image" src="/images/listing2.JPG">
 
+Listing Page with Highcharts:
+<img class="ui image" src="/images/listingandhighcharts.JPG">
+
 The listing page shows all the grants and scholarships in a list. It also allows the user to filter out and search through all the grants and show data analysis for the selected amount of grants and scholarships. 
 
 QA Page:
@@ -227,6 +230,7 @@ Milestone 2 started on September 23, 2017 and ended on November 1, 2017
 
 <img width="200px" src="images/frontpage2.JPG"/>
 <img width="200px" src="images/listing2.JPG"/>
+<img width="200px" src="images/listingandhighcharts.JPG"/>
 <img width="200px" src="images/QApage.JPG"/>
 <img width="200px" src="images/contactuspage.JPG"/>
 
