@@ -7,6 +7,7 @@
 * [Overview: OHA website](#overview-OHA-Website)
   * [Walkthrough for OHA website](#walkthrough-OHA-Website)
 * [Installation](#installation)
+  * [Matplotlib and Highcharts](#matplotlib-and-highcharts)
   * [Branches](#branches)
   * [Heroku Website](#heroku-website)
 * [Application design](#application-design)
@@ -64,6 +65,10 @@ Third, [install Flask](http://flask.pocoo.org/)
 Please note you may have to install [the latest version of python](https://www.python.org/downloads/).
 
 If all goes well, the application will appear at [http://localhost:3000](http://localhost:3000) or whatever default server that will be printed onto the screen. 
+
+### Matplotlib and Highcharts
+
+To install the 
 
 ### Branches
 
@@ -125,6 +130,10 @@ static/
   bower_components/  # bootstrap, angular ui, suave ui, etc.
   components/        # backend for the listing and visualizers
   css/               # style.css
+  Highcharts-6.0.2/  # contains all the information for the highcharts charting library
+    code/          # contains the js and css files
+    examples/      # contains the index.htm files for the examples
+    graphics/      # contains the images used by highcharts
   images/            # contains all the images used for the site
   js/                # javascript
     app.js/        # javascript for the app
@@ -203,12 +212,11 @@ What is next for Lucio:
 
 Learning from our mistakes to improve ourselves in the future or the next HACC. We do have two people that plan on continuing this project after the HACC. We're hoping to expand on this project and implement ideas that we weren't able to be completed during the HACC. Such as adding more information on the grants that are being issued, tutorial videos that explain how the website work and making the overall appearance of the website better. 
 
-HACC 2017:
+### HACC 2017:
+
 <a href="https://devpost.com/software/lucio">HACC 2017 Devpost</a>
 
 <img class="ui image" src="/images/DevPost.png">
-
-### Milestone 1:
 
 <a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/1"><i class="large github icon"></i>Milestone Project 1</a>
 
@@ -224,8 +232,8 @@ HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 <img width="200px" src="images/qa1.png"/>
 <img width="200px" src="images/contact1.png"/>
 
-### Milestone 2
-For Milestone 2 additional fixes were added to the project, the front page images were updated, cards were added to the front page, the design of the website bar, footer and headers were updated. The QA page was also updated and the contact us page was updated into cards. A new platform for the backend called highcharts was also implemented instead of the matplotlib for the listing page. However we did had to make some changes to the issues since we realized that a tutorial guide would be better made after finishing the backend of the project and we decided to use a new platform called highcharts instead of matplotlib. 
+### Milestone 1
+For Milestone 1 additional fixes were added to the project, the front page images were updated, cards were added to the front page, the design of the website bar, footer and headers were updated. The QA page was also updated and the contact us page was updated into cards. A new platform for the backend called highcharts was also implemented instead of the matplotlib for the listing page. However we did had to make some changes to the issues since we realized that a tutorial guide would be better made after finishing the backend of the project and we decided to use a new platform called highcharts instead of matplotlib. So we moved the tutorial guide into the 2nd milestone instead of the first one. 
 Milestone 2 started on September 23, 2017 and ended on November 1, 2017
 
 <img width="200px" src="images/frontpage2.JPG"/>
