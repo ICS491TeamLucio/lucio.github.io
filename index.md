@@ -10,6 +10,7 @@
   * [Matplotlib and Highcharts](#matplotlib-and-highcharts)
   * [Branches](#branches)
   * [Heroku Website](#heroku-website)
+  * [Frameworks](#frameworks)
 * [Application design](#application-design)
   * [Directory structure](#directory-structure)
   * [Naming conventions](#naming-conventions)
@@ -19,6 +20,7 @@
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#hacc-2017)
   * [Milestone 1](#milestone-1)
+  * [Milestone 2](#milestone-2)
 * [Personal-Professional-Portfolios](#personal-professional-portfolios)
 
 ### Overview OHA Website
@@ -118,6 +120,10 @@ To use and make a meteor app website, first create an account on the [Heroku web
 For better instructions please follow this [website](https://progblog.io/How-to-deploy-a-Flask-App-to-Heroku/).
 
 You should then be able to access the website online on: https://nameofapp.herokuapp.com/
+
+### Frameworks
+
+
 
 ### Application Design
 
@@ -244,6 +250,7 @@ HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 <img width="200px" src="images/contact1.png"/>
 
 ### Milestone 1
+
 For Milestone 1 additional fixes were added to the project, the front page images were updated, cards were added to the front page, the design of the website bar, footer and headers were updated. The QA page was also updated and the contact us page was updated into cards. A new platform for the backend called highcharts was also implemented instead of the matplotlib for the listing page. However we did had to make some changes to the issues since we realized that a tutorial guide would be better made after finishing the backend of the project and we decided to use a new platform called highcharts instead of matplotlib. So we moved the tutorial guide into the 2nd milestone instead of the first one. 
 Milestone 1 started on September 23, 2017 and ended on November 1, 2017
 
@@ -271,6 +278,8 @@ Current website or app is accessible on: https://oha-grant-listings.herokuapp.co
 Whats planed for the next milestone: 
 
 Now that the front end of the website is a lot better we will now start working on the back end portion of the website. So we will focus more on the listing page and continue to implement highcharts and add some functions such as cross referencing and drill down for the listing page. Finally we hope to add a tutorial video and testing from people at the ICS space before December 1, 2017. 
+
+### Milestone 2
 
 ## Personal Professional Portfolios
 
