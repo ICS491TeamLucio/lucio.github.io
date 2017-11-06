@@ -19,7 +19,6 @@
   * [Initial Mockup Pages](#initial-mockup-pages)
   * [HACC 2017](#hacc-2017)
   * [Milestone 1](#milestone-1)
-  * [Milestone 2](#milestone-2)
 * [Personal-Professional-Portfolios](#personal-professional-portfolios)
 
 ### Overview OHA Website
@@ -68,7 +67,19 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Matplotlib and Highcharts
 
-To install the 
+To install Highcharts a charting library:
+
+First, [install Highcharts](https://www.highcharts.com/docs/getting-started/installation) download or somehow include the library files into the program.
+
+Then for the head portion, import two .js files from the highcharts library, have one .js file be the base for highcharts and the other .js file to export the charts to a .png file. 
+
+After that make the div in your code to specify the size of the chart and write out the chart code as a script in Javascript text.
+
+To install Matploblib, a python 2D plotting library:
+
+First, [install Matplotlib](https://matplotlib.org/users/installing.html) download or somehow include the library files into the program, the best way to do this is to build it on the OS that you have. 
+
+Then using the information that you have from the excel file that you have converted into a cvc file. Use that information to fill up the data for the plotting library. 
 
 ### Branches
 
@@ -234,7 +245,7 @@ HACC 2017 began on August 26th, 2017 and ended on September 23rd, 2017
 
 ### Milestone 1
 For Milestone 1 additional fixes were added to the project, the front page images were updated, cards were added to the front page, the design of the website bar, footer and headers were updated. The QA page was also updated and the contact us page was updated into cards. A new platform for the backend called highcharts was also implemented instead of the matplotlib for the listing page. However we did had to make some changes to the issues since we realized that a tutorial guide would be better made after finishing the backend of the project and we decided to use a new platform called highcharts instead of matplotlib. So we moved the tutorial guide into the 2nd milestone instead of the first one. 
-Milestone 2 started on September 23, 2017 and ended on November 1, 2017
+Milestone 1 started on September 23, 2017 and ended on November 1, 2017
 
 <img width="200px" src="images/frontpage2.JPG"/>
 <img width="200px" src="images/listing2.JPG"/>
