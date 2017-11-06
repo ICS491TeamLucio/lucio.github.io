@@ -77,6 +77,12 @@ Then for the head portion, import two .js files from the highcharts library, hav
 
 After that make the div in your code to specify the size of the chart and write out the chart code as a script in Javascript text.
 
+Alternatively you can install highcharts by putting this code into the <head> tag of the .html file:
+ 
+```
+<script src="https://code.highcharts.com/highcharts.js%22%3E</script>
+```
+
 To install Matploblib, a python 2D plotting library:
 
 First, [install Matplotlib](https://matplotlib.org/users/installing.html) download or somehow include the library files into the program, the best way to do this is to build it on the OS that you have. 
@@ -123,7 +129,25 @@ You should then be able to access the website online on: https://nameofapp.herok
 
 ### Frameworks
 
+Some of the framewokrs that we used were:
 
+[Angular](https://angular.io/guide/quickstart) Frame work for the front end that contains carousel, cards, different themes and etc.
+
+[Bootstrap](http://getbootstrap.com/docs/4.0/getting-started/introduction/) Frame work for the front end that contains grids, Dashboards and etc.
+
+[W3 School](https://www.highcharts.com/docs/getting-started/installation) Frame work for the front end that contains Cards, Menus, Grids and special icons. 
+
+To use these frameworks click on the links and follow the examples that are given. Most frameworks just require you to download the neccessary libraries or just put in the link to the framework. 
+
+Example:
+
+```
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+```
 
 ### Application Design
 
