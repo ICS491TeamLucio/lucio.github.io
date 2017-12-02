@@ -137,6 +137,8 @@ Some of the framewokrs that we used were:
 
 [W3 School](https://www.highcharts.com/docs/getting-started/installation) Frame work for the front end that contains Cards, Menus, Grids and special icons. 
 
+[JSCompress](https://jscompress.com/) Compress Javascript into single lines. 
+
 To use these frameworks click on the links and follow the examples that are given. Most frameworks just require you to download the neccessary libraries or just put in the link to the framework. 
 
 Example:
