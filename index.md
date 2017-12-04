@@ -128,7 +128,7 @@ You should then be able to access the website online on: https://nameofapp.herok
 
 ### Frameworks
 
-Some of the framewokrs that we used were:
+Some of the frameworks and tools that we used were:
 
 [Angular](https://angular.io/guide/quickstart) Frame work for the front end that contains carousel, cards, different themes and etc.
 
@@ -140,7 +140,7 @@ Some of the framewokrs that we used were:
 
 [JSBeautifier](http://jsbeautifier.org/) Decompress Javascript and HTML into multiple lines.
 
-To use these frameworks click on the links and follow the examples that are given. Most frameworks just require you to download the neccessary libraries or just put in the link to the framework. 
+To use these frameworks, click on the links and follow the examples that are given. Most frameworks just require you to download the necessary libraries or just put in the link to the framework. 
 
 Example:
 
@@ -190,7 +190,7 @@ templates/
   listings.html/	 # listing page
   qa.html/	       # QA page
      
-app.py/           # impoty os - needed for Flask
+app.py/           # import os - needed for Flask
 graph.png/        # generate plot as image passable to frontend
 parse_to_json.py/ # used to parse information from excel to data
 test.html/        # generate plot as image passable to frontend
@@ -319,7 +319,7 @@ Milestone 2 started on November 1, 2017 and ended on December 4, 2017
 Milestone 2:
 <a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
 
-<img class="ui image" src="/images/M2.JPG">
+<img class="ui image" src="/images/M2update.JPG">
 
 Network: 
 <img class="ui image" src="/images/network3.JPG">
@@ -331,7 +331,7 @@ Addtional possible changes in the future:
 * Adding additional drilldown for the columns and pie chart
 * Allowing multiple drilldown for the charts
 * Adding additional graphs such as: line charts, scatter charts, and even 3D charts
-* Improving the matplot program in the listing page.
+* Improving the matplotlib program in the listing page.
 * Try to implement the app into wordpress.
 
 ## Personal Professional Portfolios
