@@ -33,23 +33,20 @@ OHA website is a angular app that allows the community and government officials 
 When first accessing th OHA website, everyone will be greeted by the landing page showing any news and updates. It then explains about our team and the website. 
 
 Landing Page:
-<img class="ui image" src="/images/frontpage2.JPG">
+<img class="ui image" src="/images/frontpage3.JPG">
 
 Listing Page:
-<img class="ui image" src="/images/listing2.JPG">
+<img class="ui image" src="/images/listing3.JPG">
 
-Listing Page with Highcharts:
-<img class="ui image" src="/images/listingandhighcharts.JPG">
-
-The listing page shows all the grants and scholarships in a list. It also allows the user to filter out and search through all the grants and show data analysis for the selected amount of grants and scholarships. 
+The listing page shows all the grants and scholarships in a list. It also allows the user to filter out and search through all the grants and show data analysis for the selected amount of grants and scholarships. The highcharts also allows users to drilldown on some of the pie charts. 
 
 QA Page:
-<img class="ui image" src="/images/QApage.JPG">
+<img class="ui image" src="/images/QA3.JPG">
 
 Answers any pages that a user may have, plan to include tutorial videos or images in the near future.
 
 Contact Us page:
-<img class="ui image" src="/images/contactuspage.JPG">
+<img class="ui image" src="/images/contactus3.JPG">
 
 Includes how to contact our team and it also includes a google survey form that users can fill out to give back their experience on the website.
 
@@ -137,7 +134,9 @@ Some of the framewokrs that we used were:
 
 [W3 School](https://www.highcharts.com/docs/getting-started/installation) Frame work for the front end that contains Cards, Menus, Grids and special icons. 
 
-[JSCompress](https://jscompress.com/) Compress Javascript into single lines. 
+[JSCompress](https://jscompress.com/) Compress Javascript and HTML into single lines. 
+
+[JSBeautifier](http://jsbeautifier.org/) Decompress Javascript and HTML into multiple lines.
 
 To use these frameworks click on the links and follow the examples that are given. Most frameworks just require you to download the neccessary libraries or just put in the link to the framework. 
 
@@ -306,6 +305,30 @@ Whats planed for the next milestone:
 Now that the front end of the website is a lot better we will now start working on the back end portion of the website. So we will focus more on the listing page and continue to implement highcharts and add some functions such as cross referencing and drill down for the listing page. Finally we hope to add a tutorial video and testing from people at the ICS space before December 1, 2017. 
 
 ### Milestone 2
+
+For Milestone 2 additional fixes were added to the project, the front page images were updated again
+Milestone 1 started on November 1, 2017 and ended on December XX, 2017
+
+<img width="200px" src="images/frontpage3.JPG"/>
+<img width="200px" src="images/listing3.JPG"/>
+<img width="200px" src="images/QA3.JPG"/>
+<img width="200px" src="images/contactus3.JPG"/>
+
+Milestone 2:
+<a href="https://github.com/ohagrantwebsite/ohagrantwebsite/projects/2"><i class="large github icon"></i>Milestone Project 2</a>
+
+<img class="ui image" src="/images/M2.JPG">
+
+Network: 
+<img class="ui image" src="/images/network3.JPG">
+
+Current website or app is accessible on: https://oha-grant-listings.herokuapp.com/
+
+Addtional possible changes in the future:
+
+Adding additional drilldown for the columns and pie chart
+Allowing multiple drilldown for the charts
+Adding addtional graphs such as: line charts, scatter charts, and even 3D charts
 
 ## Personal Professional Portfolios
 
