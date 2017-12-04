@@ -35,6 +35,8 @@ When first accessing th OHA website, everyone will be greeted by the landing pag
 Landing Page:
 <img class="ui image" src="/images/frontpage3.JPG">
 
+The landing page shows interesting data about the Office of Hawaiian Affairs and any news and updates.
+
 Listing Page:
 <img class="ui image" src="/images/listing3.JPG">
 
@@ -306,8 +308,8 @@ Now that the front end of the website is a lot better we will now start working 
 
 ### Milestone 2
 
-For Milestone 2 additional fixes were added to the project, the front page images were updated again
-Milestone 1 started on November 1, 2017 and ended on December XX, 2017
+For Milestone 2 additional fixes were added to the project, the front page was updated again, this time we added in a tally counter for the total visitors to the website. Then we fixed the cards size and design to make them more appealing. Then we created a tutorial video in the QA page for inexperienced users. We were also able to get at least 5 people to test out our website and give us back feedback through a survey in the contact us page. The biggest change to our website was being able to add highchart data onto our listing page. We were able to add two different kind of highchart data types a column graph and pie chart. The column chart contains the amount of grants allocated to a certain graph type. The pie chart showed the amount of money given to a specific grant per year. We also added in a drilldown option for the pie chart for certain graphs. We couldn’t make multiple drilldowns now, so we decided to at least implement one drilldown for the pie chart. We also couldn’t make a cross reference search function for the highchart graphs because we found out that the highcharts is unable to specify specific data, unless they are numbers or manually fixed by csv files or html code. However, we were able to fix the issue by just manually setting up the data to be read by the highchart program. 
+Milestone 2 started on November 1, 2017 and ended on December 4, 2017
 
 <img width="200px" src="images/frontpage3.JPG"/>
 <img width="200px" src="images/listing3.JPG"/>
@@ -326,9 +328,11 @@ Current website or app is accessible on: https://oha-grant-listings.herokuapp.co
 
 Addtional possible changes in the future:
 
-Adding additional drilldown for the columns and pie chart
-Allowing multiple drilldown for the charts
-Adding addtional graphs such as: line charts, scatter charts, and even 3D charts
+* Adding additional drilldown for the columns and pie chart
+* Allowing multiple drilldown for the charts
+* Adding additional graphs such as: line charts, scatter charts, and even 3D charts
+* Improving the matplot program in the listing page.
+* Try to implement the app into wordpress.
 
 ## Personal Professional Portfolios
 
