@@ -214,6 +214,14 @@ We used an online survey to find suggestions and our target area for people to u
 <img class="ui image" src="../images/survey1.png">
 <img class="ui image" src="../images/survey2.png">
 
+We were then able to get at least 5 people to test out our website and give us back their replies:
+
+<img class="ui image" src="../images/surveyanswer1.JPG">
+<img class="ui image" src="../images/surveyanswer2.JPG">
+<img class="ui image" src="../images/surveyanswer3.JPG">
+<img class="ui image" src="../images/surveyanswer4.JPG">
+<img class="ui image" src="../images/surveyanswer5.JPG">
+
 ## Development-History
 
 ### Initial Mockup Pages
