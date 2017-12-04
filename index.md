@@ -340,4 +340,4 @@ Before we begin here's our personal professional portfolios:
 
 <a href="https://jjhna.github.io/">Jonathan Na's professional portfolio
 
-<a href="">Vincent professional portfolio
+<a href="https://vluu7.github.io/">Vincent professional portfolio
